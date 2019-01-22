@@ -127,6 +127,17 @@ public class AppMain {
                                 new CompStmt(new PrintStmt(new VarExp("v")), new PrintStmt(new HeapReadingExp("a"))))));
         commandList.add(createCommand(ex13));
 
+        IStmt ex14 = new CompStmt(new AssignStmt("v", new ConstExp(20)),
+                new CompStmt(
+                        new ForStmt("v",
+                                new ConstExp(0), new ConstExp(3),
+                                new ArithExp('+', new VarExp("v"), new ConstExp(1)),
+                                new ForkStmt(new CompStmt(
+                                        new PrintStmt(new VarExp("v")),
+                                        new AssignStmt("v", new ArithExp('+', new VarExp("v"), new ConstExp(1)))))),
+                        new PrintStmt(new ArithExp('*', new VarExp("v"), new ConstExp(10)))));
+        commandList.add(createCommand(ex14));
+
         return commandList;
     }
 

@@ -1,16 +1,20 @@
 package Domain.Expression;
 
 import Domain.ADT.IDictionary;
-import Exceptions.*;
+import Exceptions.DivisionByZeroException;
+import Exceptions.HeapVariableNotFoundException;
+import Exceptions.InvalidOperatorException;
+import Exceptions.VariableNotFound;
 
 public class BooleanExp extends Exp {
 
     private Exp exp1, exp2;
     private String option;
 
-    public BooleanExp(Exp exp1, Exp exp2) {
+    public BooleanExp(Exp exp1, Exp exp2, String option) {
         this.exp1 = exp1;
         this.exp2 = exp2;
+        this.option = option;
     }
 
     @Override
