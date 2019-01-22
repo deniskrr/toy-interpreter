@@ -1,0 +1,1136 @@
+Id:
+	4
+ExeStack:
+	(openFile (var_f,"test.in");(readFile (var_c,var_f) ;(print (var_c);(IF (var_c) THEN (readFile (var_c,var_f) ) ELSE (print (var_c)) ;print (0)))))
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	4
+ExeStack:
+	(readFile (var_c,var_f) ;(print (var_c);(IF (var_c) THEN (readFile (var_c,var_f) ) ELSE (print (var_c)) ;print (0))))
+	openFile (var_f,"test.in")
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	4
+ExeStack:
+	(readFile (var_c,var_f) ;(print (var_c);(IF (var_c) THEN (readFile (var_c,var_f) ) ELSE (print (var_c)) ;print (0))))
+	openFile (var_f,"test.in")
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	4
+ExeStack:
+	(readFile (var_c,var_f) ;(print (var_c);(IF (var_c) THEN (readFile (var_c,var_f) ) ELSE (print (var_c)) ;print (0))))
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	4
+ExeStack:
+	(readFile (var_c,var_f) ;(print (var_c);(IF (var_c) THEN (readFile (var_c,var_f) ) ELSE (print (var_c)) ;print (0))))
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	4
+ExeStack:
+	(print (var_c);(IF (var_c) THEN (readFile (var_c,var_f) ) ELSE (print (var_c)) ;print (0)))
+	readFile (var_c,var_f) 
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	4
+ExeStack:
+	(print (var_c);(IF (var_c) THEN (readFile (var_c,var_f) ) ELSE (print (var_c)) ;print (0)))
+	readFile (var_c,var_f) 
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	4
+ExeStack:
+	(print (var_c);(IF (var_c) THEN (readFile (var_c,var_f) ) ELSE (print (var_c)) ;print (0)))
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	4
+ExeStack:
+	(print (var_c);(IF (var_c) THEN (readFile (var_c,var_f) ) ELSE (print (var_c)) ;print (0)))
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	4
+ExeStack:
+	(IF (var_c) THEN (readFile (var_c,var_f) ) ELSE (print (var_c)) ;print (0))
+	print (var_c)
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	4
+ExeStack:
+	(IF (var_c) THEN (readFile (var_c,var_f) ) ELSE (print (var_c)) ;print (0))
+	print (var_c)
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	4
+ExeStack:
+	(IF (var_c) THEN (readFile (var_c,var_f) ) ELSE (print (var_c)) ;print (0))
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	4
+ExeStack:
+	(IF (var_c) THEN (readFile (var_c,var_f) ) ELSE (print (var_c)) ;print (0))
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	4
+ExeStack:
+	print (0)
+	IF (var_c) THEN (readFile (var_c,var_f) ) ELSE (print (var_c)) 
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	4
+ExeStack:
+	print (0)
+	IF (var_c) THEN (readFile (var_c,var_f) ) ELSE (print (var_c)) 
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	4
+ExeStack:
+	print (0)
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	4
+ExeStack:
+	print (0)
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	4
+ExeStack:
+Sym Table:
+File Table:
+Heap: 
+Print output:
+	0
+
+
+
+Id:
+	4
+ExeStack:
+	(openFile (var_f,"test.in");(readFile (var_c,var_f) ;(print (var_c);(IF (var_c) THEN (readFile (var_c,var_f) ) ELSE (print (var_c)) ;print (0)))))
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	4
+ExeStack:
+	(readFile (var_c,var_f) ;(print (var_c);(IF (var_c) THEN (readFile (var_c,var_f) ) ELSE (print (var_c)) ;print (0))))
+	openFile (var_f,"test.in")
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	4
+ExeStack:
+	(readFile (var_c,var_f) ;(print (var_c);(IF (var_c) THEN (readFile (var_c,var_f) ) ELSE (print (var_c)) ;print (0))))
+	openFile (var_f,"test.in")
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	4
+ExeStack:
+	(readFile (var_c,var_f) ;(print (var_c);(IF (var_c) THEN (readFile (var_c,var_f) ) ELSE (print (var_c)) ;print (0))))
+Sym Table:
+	var_f = 856647496
+File Table:
+	856647496 = Filename: test.in
+Heap: 
+Print output:
+
+
+
+
+Id:
+	4
+ExeStack:
+	(readFile (var_c,var_f) ;(print (var_c);(IF (var_c) THEN (readFile (var_c,var_f) ) ELSE (print (var_c)) ;print (0))))
+Sym Table:
+	var_f = 856647496
+File Table:
+	856647496 = Filename: test.in
+Heap: 
+Print output:
+
+
+
+
+Id:
+	4
+ExeStack:
+	(print (var_c);(IF (var_c) THEN (readFile (var_c,var_f) ) ELSE (print (var_c)) ;print (0)))
+	readFile (var_c,var_f) 
+Sym Table:
+	var_f = 856647496
+File Table:
+	856647496 = Filename: test.in
+Heap: 
+Print output:
+
+
+
+
+Id:
+	4
+ExeStack:
+	(print (var_c);(IF (var_c) THEN (readFile (var_c,var_f) ) ELSE (print (var_c)) ;print (0)))
+	readFile (var_c,var_f) 
+Sym Table:
+	var_f = 856647496
+File Table:
+	856647496 = Filename: test.in
+Heap: 
+Print output:
+
+
+
+
+Id:
+	4
+ExeStack:
+	(print (var_c);(IF (var_c) THEN (readFile (var_c,var_f) ) ELSE (print (var_c)) ;print (0)))
+Sym Table:
+	var_f = 856647496
+	var_c = 3
+File Table:
+	856647496 = Filename: test.in
+Heap: 
+Print output:
+
+
+
+
+Id:
+	4
+ExeStack:
+	(print (var_c);(IF (var_c) THEN (readFile (var_c,var_f) ) ELSE (print (var_c)) ;print (0)))
+Sym Table:
+	var_f = 856647496
+	var_c = 3
+File Table:
+	856647496 = Filename: test.in
+Heap: 
+Print output:
+
+
+
+
+Id:
+	4
+ExeStack:
+	(IF (var_c) THEN (readFile (var_c,var_f) ) ELSE (print (var_c)) ;print (0))
+	print (var_c)
+Sym Table:
+	var_f = 856647496
+	var_c = 3
+File Table:
+	856647496 = Filename: test.in
+Heap: 
+Print output:
+
+
+
+
+Id:
+	4
+ExeStack:
+	(IF (var_c) THEN (readFile (var_c,var_f) ) ELSE (print (var_c)) ;print (0))
+	print (var_c)
+Sym Table:
+	var_f = 856647496
+	var_c = 3
+File Table:
+	856647496 = Filename: test.in
+Heap: 
+Print output:
+
+
+
+
+Id:
+	4
+ExeStack:
+	(IF (var_c) THEN (readFile (var_c,var_f) ) ELSE (print (var_c)) ;print (0))
+Sym Table:
+	var_f = 856647496
+	var_c = 3
+File Table:
+	856647496 = Filename: test.in
+Heap: 
+Print output:
+	3
+
+
+
+Id:
+	4
+ExeStack:
+	(IF (var_c) THEN (readFile (var_c,var_f) ) ELSE (print (var_c)) ;print (0))
+Sym Table:
+	var_f = 856647496
+	var_c = 3
+File Table:
+	856647496 = Filename: test.in
+Heap: 
+Print output:
+	3
+
+
+
+Id:
+	4
+ExeStack:
+	print (0)
+	IF (var_c) THEN (readFile (var_c,var_f) ) ELSE (print (var_c)) 
+Sym Table:
+	var_f = 856647496
+	var_c = 3
+File Table:
+	856647496 = Filename: test.in
+Heap: 
+Print output:
+	3
+
+
+
+Id:
+	4
+ExeStack:
+	print (0)
+	IF (var_c) THEN (readFile (var_c,var_f) ) ELSE (print (var_c)) 
+Sym Table:
+	var_f = 856647496
+	var_c = 3
+File Table:
+	856647496 = Filename: test.in
+Heap: 
+Print output:
+	3
+
+
+
+Id:
+	4
+ExeStack:
+	print (0)
+	readFile (var_c,var_f) 
+Sym Table:
+	var_f = 856647496
+	var_c = 3
+File Table:
+	856647496 = Filename: test.in
+Heap: 
+Print output:
+	3
+
+
+
+Id:
+	4
+ExeStack:
+	print (0)
+	readFile (var_c,var_f) 
+Sym Table:
+	var_f = 856647496
+	var_c = 3
+File Table:
+	856647496 = Filename: test.in
+Heap: 
+Print output:
+	3
+
+
+
+Id:
+	4
+ExeStack:
+	print (0)
+Sym Table:
+	var_f = 856647496
+	var_c = 0
+File Table:
+	856647496 = Filename: test.in
+Heap: 
+Print output:
+	3
+
+
+
+Id:
+	4
+ExeStack:
+	print (0)
+Sym Table:
+	var_f = 856647496
+	var_c = 0
+File Table:
+	856647496 = Filename: test.in
+Heap: 
+Print output:
+	3
+
+
+
+Id:
+	4
+ExeStack:
+Sym Table:
+	var_f = 856647496
+	var_c = 0
+File Table:
+	856647496 = Filename: test.in
+Heap: 
+Print output:
+	3	0
+
+
+
+Id:
+	4
+ExeStack:
+	(openFile (var_f,"test.in");(readFile (var_c,var_f) ;(print (var_c);(IF (var_c) THEN (readFile (var_c,var_f) ) ELSE (print (var_c)) ;print (0)))))
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	4
+ExeStack:
+	(readFile (var_c,var_f) ;(print (var_c);(IF (var_c) THEN (readFile (var_c,var_f) ) ELSE (print (var_c)) ;print (0))))
+	openFile (var_f,"test.in")
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	4
+ExeStack:
+	(readFile (var_c,var_f) ;(print (var_c);(IF (var_c) THEN (readFile (var_c,var_f) ) ELSE (print (var_c)) ;print (0))))
+	openFile (var_f,"test.in")
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	4
+ExeStack:
+	(readFile (var_c,var_f) ;(print (var_c);(IF (var_c) THEN (readFile (var_c,var_f) ) ELSE (print (var_c)) ;print (0))))
+Sym Table:
+	var_f = 1564542076
+File Table:
+	1564542076 = Filename: test.in
+Heap: 
+Print output:
+
+
+
+
+Id:
+	4
+ExeStack:
+	(readFile (var_c,var_f) ;(print (var_c);(IF (var_c) THEN (readFile (var_c,var_f) ) ELSE (print (var_c)) ;print (0))))
+Sym Table:
+	var_f = 1564542076
+File Table:
+	1564542076 = Filename: test.in
+Heap: 
+Print output:
+
+
+
+
+Id:
+	4
+ExeStack:
+	(print (var_c);(IF (var_c) THEN (readFile (var_c,var_f) ) ELSE (print (var_c)) ;print (0)))
+	readFile (var_c,var_f) 
+Sym Table:
+	var_f = 1564542076
+File Table:
+	1564542076 = Filename: test.in
+Heap: 
+Print output:
+
+
+
+
+Id:
+	4
+ExeStack:
+	(print (var_c);(IF (var_c) THEN (readFile (var_c,var_f) ) ELSE (print (var_c)) ;print (0)))
+	readFile (var_c,var_f) 
+Sym Table:
+	var_f = 1564542076
+File Table:
+	1564542076 = Filename: test.in
+Heap: 
+Print output:
+
+
+
+
+Id:
+	4
+ExeStack:
+	(print (var_c);(IF (var_c) THEN (readFile (var_c,var_f) ) ELSE (print (var_c)) ;print (0)))
+Sym Table:
+	var_f = 1564542076
+	var_c = 3
+File Table:
+	1564542076 = Filename: test.in
+Heap: 
+Print output:
+
+
+
+
+Id:
+	4
+ExeStack:
+	(print (var_c);(IF (var_c) THEN (readFile (var_c,var_f) ) ELSE (print (var_c)) ;print (0)))
+Sym Table:
+	var_f = 1564542076
+	var_c = 3
+File Table:
+	1564542076 = Filename: test.in
+Heap: 
+Print output:
+
+
+
+
+Id:
+	4
+ExeStack:
+	(IF (var_c) THEN (readFile (var_c,var_f) ) ELSE (print (var_c)) ;print (0))
+	print (var_c)
+Sym Table:
+	var_f = 1564542076
+	var_c = 3
+File Table:
+	1564542076 = Filename: test.in
+Heap: 
+Print output:
+
+
+
+
+Id:
+	4
+ExeStack:
+	(IF (var_c) THEN (readFile (var_c,var_f) ) ELSE (print (var_c)) ;print (0))
+	print (var_c)
+Sym Table:
+	var_f = 1564542076
+	var_c = 3
+File Table:
+	1564542076 = Filename: test.in
+Heap: 
+Print output:
+
+
+
+
+Id:
+	4
+ExeStack:
+	(IF (var_c) THEN (readFile (var_c,var_f) ) ELSE (print (var_c)) ;print (0))
+Sym Table:
+	var_f = 1564542076
+	var_c = 3
+File Table:
+	1564542076 = Filename: test.in
+Heap: 
+Print output:
+	3
+
+
+
+Id:
+	4
+ExeStack:
+	(IF (var_c) THEN (readFile (var_c,var_f) ) ELSE (print (var_c)) ;print (0))
+Sym Table:
+	var_f = 1564542076
+	var_c = 3
+File Table:
+	1564542076 = Filename: test.in
+Heap: 
+Print output:
+	3
+
+
+
+Id:
+	4
+ExeStack:
+	print (0)
+	IF (var_c) THEN (readFile (var_c,var_f) ) ELSE (print (var_c)) 
+Sym Table:
+	var_f = 1564542076
+	var_c = 3
+File Table:
+	1564542076 = Filename: test.in
+Heap: 
+Print output:
+	3
+
+
+
+Id:
+	4
+ExeStack:
+	print (0)
+	IF (var_c) THEN (readFile (var_c,var_f) ) ELSE (print (var_c)) 
+Sym Table:
+	var_f = 1564542076
+	var_c = 3
+File Table:
+	1564542076 = Filename: test.in
+Heap: 
+Print output:
+	3
+
+
+
+Id:
+	4
+ExeStack:
+	print (0)
+	readFile (var_c,var_f) 
+Sym Table:
+	var_f = 1564542076
+	var_c = 3
+File Table:
+	1564542076 = Filename: test.in
+Heap: 
+Print output:
+	3
+
+
+
+Id:
+	4
+ExeStack:
+	print (0)
+	readFile (var_c,var_f) 
+Sym Table:
+	var_f = 1564542076
+	var_c = 3
+File Table:
+	1564542076 = Filename: test.in
+Heap: 
+Print output:
+	3
+
+
+
+Id:
+	4
+ExeStack:
+	print (0)
+Sym Table:
+	var_f = 1564542076
+	var_c = 0
+File Table:
+	1564542076 = Filename: test.in
+Heap: 
+Print output:
+	3
+
+
+
+Id:
+	4
+ExeStack:
+	print (0)
+Sym Table:
+	var_f = 1564542076
+	var_c = 0
+File Table:
+	1564542076 = Filename: test.in
+Heap: 
+Print output:
+	3
+
+
+
+Id:
+	4
+ExeStack:
+Sym Table:
+	var_f = 1564542076
+	var_c = 0
+File Table:
+	1564542076 = Filename: test.in
+Heap: 
+Print output:
+	3	0
+
+
+
+Id:
+	4
+ExeStack:
+	(openFile (var_f,"test.in");(readFile (var_c,var_f) ;(print (var_c);(IF (var_c) THEN (readFile (var_c,var_f) ) ELSE (print (var_c)) ;print (0)))))
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	4
+ExeStack:
+	(readFile (var_c,var_f) ;(print (var_c);(IF (var_c) THEN (readFile (var_c,var_f) ) ELSE (print (var_c)) ;print (0))))
+	openFile (var_f,"test.in")
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	4
+ExeStack:
+	(openFile (var_f,"test.in");(readFile (var_c,var_f) ;(print (var_c);(IF (var_c) THEN (readFile (var_c,var_f) ) ELSE (print (var_c)) ;print (0)))))
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	4
+ExeStack:
+	(readFile (var_c,var_f) ;(print (var_c);(IF (var_c) THEN (readFile (var_c,var_f) ) ELSE (print (var_c)) ;print (0))))
+	openFile (var_f,"test.in")
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	4
+ExeStack:
+	(readFile (var_c,var_f) ;(print (var_c);(IF (var_c) THEN (readFile (var_c,var_f) ) ELSE (print (var_c)) ;print (0))))
+	openFile (var_f,"test.in")
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	4
+ExeStack:
+	(readFile (var_c,var_f) ;(print (var_c);(IF (var_c) THEN (readFile (var_c,var_f) ) ELSE (print (var_c)) ;print (0))))
+Sym Table:
+	var_f = 995705270
+File Table:
+	995705270 = Filename: test.in
+Heap: 
+Print output:
+
+
+
+
+Id:
+	4
+ExeStack:
+	(readFile (var_c,var_f) ;(print (var_c);(IF (var_c) THEN (readFile (var_c,var_f) ) ELSE (print (var_c)) ;print (0))))
+Sym Table:
+	var_f = 995705270
+File Table:
+	995705270 = Filename: test.in
+Heap: 
+Print output:
+
+
+
+
+Id:
+	4
+ExeStack:
+	(print (var_c);(IF (var_c) THEN (readFile (var_c,var_f) ) ELSE (print (var_c)) ;print (0)))
+	readFile (var_c,var_f) 
+Sym Table:
+	var_f = 995705270
+File Table:
+	995705270 = Filename: test.in
+Heap: 
+Print output:
+
+
+
+
+Id:
+	4
+ExeStack:
+	(print (var_c);(IF (var_c) THEN (readFile (var_c,var_f) ) ELSE (print (var_c)) ;print (0)))
+	readFile (var_c,var_f) 
+Sym Table:
+	var_f = 995705270
+File Table:
+	995705270 = Filename: test.in
+Heap: 
+Print output:
+
+
+
+
+Id:
+	4
+ExeStack:
+	(print (var_c);(IF (var_c) THEN (readFile (var_c,var_f) ) ELSE (print (var_c)) ;print (0)))
+Sym Table:
+	var_f = 995705270
+	var_c = 3
+File Table:
+	995705270 = Filename: test.in
+Heap: 
+Print output:
+
+
+
+
+Id:
+	4
+ExeStack:
+	(print (var_c);(IF (var_c) THEN (readFile (var_c,var_f) ) ELSE (print (var_c)) ;print (0)))
+Sym Table:
+	var_f = 995705270
+	var_c = 3
+File Table:
+	995705270 = Filename: test.in
+Heap: 
+Print output:
+
+
+
+
+Id:
+	4
+ExeStack:
+	(IF (var_c) THEN (readFile (var_c,var_f) ) ELSE (print (var_c)) ;print (0))
+	print (var_c)
+Sym Table:
+	var_f = 995705270
+	var_c = 3
+File Table:
+	995705270 = Filename: test.in
+Heap: 
+Print output:
+
+
+
+
+Id:
+	4
+ExeStack:
+	(IF (var_c) THEN (readFile (var_c,var_f) ) ELSE (print (var_c)) ;print (0))
+	print (var_c)
+Sym Table:
+	var_f = 995705270
+	var_c = 3
+File Table:
+	995705270 = Filename: test.in
+Heap: 
+Print output:
+
+
+
+
+Id:
+	4
+ExeStack:
+	(IF (var_c) THEN (readFile (var_c,var_f) ) ELSE (print (var_c)) ;print (0))
+Sym Table:
+	var_f = 995705270
+	var_c = 3
+File Table:
+	995705270 = Filename: test.in
+Heap: 
+Print output:
+	3
+
+
+
+Id:
+	4
+ExeStack:
+	(IF (var_c) THEN (readFile (var_c,var_f) ) ELSE (print (var_c)) ;print (0))
+Sym Table:
+	var_f = 995705270
+	var_c = 3
+File Table:
+	995705270 = Filename: test.in
+Heap: 
+Print output:
+	3
+
+
+
+Id:
+	4
+ExeStack:
+	print (0)
+	IF (var_c) THEN (readFile (var_c,var_f) ) ELSE (print (var_c)) 
+Sym Table:
+	var_f = 995705270
+	var_c = 3
+File Table:
+	995705270 = Filename: test.in
+Heap: 
+Print output:
+	3
+
+
+
+Id:
+	4
+ExeStack:
+	print (0)
+	IF (var_c) THEN (readFile (var_c,var_f) ) ELSE (print (var_c)) 
+Sym Table:
+	var_f = 995705270
+	var_c = 3
+File Table:
+	995705270 = Filename: test.in
+Heap: 
+Print output:
+	3
+
+
+
+Id:
+	4
+ExeStack:
+	print (0)
+	readFile (var_c,var_f) 
+Sym Table:
+	var_f = 995705270
+	var_c = 3
+File Table:
+	995705270 = Filename: test.in
+Heap: 
+Print output:
+	3
+
+
+
+Id:
+	4
+ExeStack:
+	print (0)
+	readFile (var_c,var_f) 
+Sym Table:
+	var_f = 995705270
+	var_c = 3
+File Table:
+	995705270 = Filename: test.in
+Heap: 
+Print output:
+	3
+
+
+
+Id:
+	4
+ExeStack:
+	print (0)
+Sym Table:
+	var_f = 995705270
+	var_c = 0
+File Table:
+	995705270 = Filename: test.in
+Heap: 
+Print output:
+	3
+
+
+
+Id:
+	4
+ExeStack:
+	print (0)
+Sym Table:
+	var_f = 995705270
+	var_c = 0
+File Table:
+	995705270 = Filename: test.in
+Heap: 
+Print output:
+	3
+
+
+
+Id:
+	4
+ExeStack:
+Sym Table:
+	var_f = 995705270
+	var_c = 0
+File Table:
+	995705270 = Filename: test.in
+Heap: 
+Print output:
+	3	0
+
+
+

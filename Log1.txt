@@ -1,0 +1,2192 @@
+ExeStack:
+	(v = 2;print (v))
+
+Sym Table:
+
+Heap:
+ 
+Print output:
+
+ExeStack:
+	print (v)
+	v = 2
+
+Sym Table:
+
+Heap:
+ 
+Print output:
+
+ExeStack:
+	print (v)
+	v = 2
+
+Sym Table:
+
+Heap:
+ 
+Print output:
+
+ExeStack:
+	print (v)
+
+Sym Table:
+	v = 2
+
+Heap:
+ 
+Print output:
+
+ExeStack:
+	print (v)
+
+Sym Table:
+	v = 2
+
+Heap:
+ 
+Print output:
+
+ExeStack:
+
+Sym Table:
+	v = 2
+
+Heap:
+ 
+Print output:
+	2
+Id:
+	1
+ExeStack:
+	(v = 2;print (v))
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	(v = 2;print (v))
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	(v = 2;print (v))
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+	v = 2
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+	v = 2
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+	2
+
+
+
+Id:
+	1
+ExeStack:
+	(v = 2;print (v))
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+	v = 2
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+	v = 2
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+	2
+
+
+
+Id:
+	1
+ExeStack:
+	(v = 2;print (v))
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+	v = 2
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+	v = 2
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+	2
+
+
+
+Id:
+	1
+ExeStack:
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+	2
+
+
+
+Id:
+	1
+ExeStack:
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+	2
+
+
+
+Id:
+	1
+ExeStack:
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+	2
+
+
+
+Id:
+	1
+ExeStack:
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+	2
+
+
+
+Id:
+	1
+ExeStack:
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+	2
+
+
+
+Id:
+	1
+ExeStack:
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+	2
+
+
+
+Id:
+	1
+ExeStack:
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+	2
+
+
+
+Id:
+	1
+ExeStack:
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+	2
+
+
+
+Id:
+	1
+ExeStack:
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+	2
+
+
+
+Id:
+	1
+ExeStack:
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+	2
+
+
+
+Id:
+	1
+ExeStack:
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+	2
+
+
+
+Id:
+	1
+ExeStack:
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+	2
+
+
+
+Id:
+	1
+ExeStack:
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+	2
+
+
+
+Id:
+	1
+ExeStack:
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+	2
+
+
+
+Id:
+	1
+ExeStack:
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+	2
+
+
+
+Id:
+	1
+ExeStack:
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+	2
+
+
+
+Id:
+	1
+ExeStack:
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+	2
+
+
+
+Id:
+	1
+ExeStack:
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+	2
+
+
+
+Id:
+	1
+ExeStack:
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+	2
+
+
+
+Id:
+	1
+ExeStack:
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+	2
+
+
+
+Id:
+	1
+ExeStack:
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+	2
+
+
+
+Id:
+	1
+ExeStack:
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+	2
+
+
+
+Id:
+	1
+ExeStack:
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+	2
+
+
+
+Id:
+	1
+ExeStack:
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+	2
+
+
+
+Id:
+	1
+ExeStack:
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+	2
+
+
+
+Id:
+	1
+ExeStack:
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+	2
+
+
+
+Id:
+	1
+ExeStack:
+	(v = 2;print (v))
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+	v = 2
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+	v = 2
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	(v = 2;print (v))
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+	v = 2
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+	v = 2
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+	2
+
+
+
+Id:
+	1
+ExeStack:
+	(v = 2;print (v))
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+	v = 2
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+	v = 2
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+	2
+
+
+
+Id:
+	1
+ExeStack:
+	(v = 2;print (v))
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+	v = 2
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+	v = 2
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	(v = 2;print (v))
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+	v = 2
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+	v = 2
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+	2
+
+
+
+Id:
+	1
+ExeStack:
+	(v = 2;print (v))
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+	v = 2
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+	v = 2
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+	2
+
+
+
+Id:
+	1
+ExeStack:
+	(v = 2;print (v))
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+	v = 2
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+	v = 2
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+	2
+
+
+
+Id:
+	1
+ExeStack:
+	(v = 2;print (v))
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+	v = 2
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+	v = 2
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+	2
+
+
+
+Id:
+	1
+ExeStack:
+	(v = 2;print (v))
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+	v = 2
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+	v = 2
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+	2
+
+
+
+Id:
+	1
+ExeStack:
+	(v = 2;print (v))
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+	v = 2
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+	v = 2
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+	2
+
+
+
+Id:
+	1
+ExeStack:
+	(v = 2;print (v))
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+	v = 2
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+	v = 2
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+	2
+
+
+
+Id:
+	1
+ExeStack:
+	(v = 2;print (v))
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+	v = 2
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+	v = 2
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+	2
+
+
+
+Id:
+	1
+ExeStack:
+	(v = 2;print (v))
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+	v = 2
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+	v = 2
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+	2
+
+
+
+Id:
+	1
+ExeStack:
+	(v = 2;print (v))
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+	v = 2
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+	v = 2
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+	2
+
+
+
+Id:
+	1
+ExeStack:
+	(v = 2;print (v))
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+	v = 2
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+	v = 2
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+	2
+
+
+
+Id:
+	1
+ExeStack:
+	(v = 2;print (v))
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+	v = 2
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+	v = 2
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+	2
+
+
+
+Id:
+	1
+ExeStack:
+	(v = 2;print (v))
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+	v = 2
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+	v = 2
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+	2
+
+
+
+Id:
+	1
+ExeStack:
+	(v = 2;print (v))
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+	v = 2
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+	v = 2
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+	2
+
+
+
+Id:
+	1
+ExeStack:
+	(v = 2;print (v))
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+	v = 2
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+	v = 2
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+	2
+
+
+
+Id:
+	1
+ExeStack:
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+	2
+
+
+
+Id:
+	1
+ExeStack:
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+	2
+
+
+
+Id:
+	1
+ExeStack:
+	(v = 2;print (v))
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+	v = 2
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+	v = 2
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+	2
+
+
+
+Id:
+	1
+ExeStack:
+	(v = 2;print (v))
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+	v = 2
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+	v = 2
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+	print (v)
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	1
+ExeStack:
+Sym Table:
+	v = 2
+File Table:
+Heap: 
+Print output:
+	2
+
+
+

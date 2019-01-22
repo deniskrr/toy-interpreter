@@ -1,0 +1,756 @@
+Id:
+	5
+ExeStack:
+	(openFile (var_f,"test.in");(readFile (var_c,var_f+2) ;(print (var_c);(IF (var_c) THEN ((readFile (var_c,var_f) ;print (var_c))) ELSE (print (0)) ;closeFile ( var_f )))))
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	5
+ExeStack:
+	(readFile (var_c,var_f+2) ;(print (var_c);(IF (var_c) THEN ((readFile (var_c,var_f) ;print (var_c))) ELSE (print (0)) ;closeFile ( var_f ))))
+	openFile (var_f,"test.in")
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	5
+ExeStack:
+	(readFile (var_c,var_f+2) ;(print (var_c);(IF (var_c) THEN ((readFile (var_c,var_f) ;print (var_c))) ELSE (print (0)) ;closeFile ( var_f ))))
+	openFile (var_f,"test.in")
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	5
+ExeStack:
+	(readFile (var_c,var_f+2) ;(print (var_c);(IF (var_c) THEN ((readFile (var_c,var_f) ;print (var_c))) ELSE (print (0)) ;closeFile ( var_f ))))
+Sym Table:
+	var_f = 543969978
+File Table:
+	543969978 = Filename: test.in
+Heap: 
+Print output:
+
+
+
+
+Id:
+	5
+ExeStack:
+	(readFile (var_c,var_f+2) ;(print (var_c);(IF (var_c) THEN ((readFile (var_c,var_f) ;print (var_c))) ELSE (print (0)) ;closeFile ( var_f ))))
+Sym Table:
+	var_f = 543969978
+File Table:
+	543969978 = Filename: test.in
+Heap: 
+Print output:
+
+
+
+
+Id:
+	5
+ExeStack:
+	(print (var_c);(IF (var_c) THEN ((readFile (var_c,var_f) ;print (var_c))) ELSE (print (0)) ;closeFile ( var_f )))
+	readFile (var_c,var_f+2) 
+Sym Table:
+	var_f = 543969978
+File Table:
+	543969978 = Filename: test.in
+Heap: 
+Print output:
+
+
+
+
+Id:
+	5
+ExeStack:
+	(print (var_c);(IF (var_c) THEN ((readFile (var_c,var_f) ;print (var_c))) ELSE (print (0)) ;closeFile ( var_f )))
+	readFile (var_c,var_f+2) 
+Sym Table:
+	var_f = 543969978
+File Table:
+	543969978 = Filename: test.in
+Heap: 
+Print output:
+
+
+
+
+Id:
+	5
+ExeStack:
+	(print (var_c);(IF (var_c) THEN ((readFile (var_c,var_f) ;print (var_c))) ELSE (print (0)) ;closeFile ( var_f )))
+Sym Table:
+	var_f = 543969978
+File Table:
+	543969978 = Filename: test.in
+Heap: 
+Print output:
+
+
+
+
+Id:
+	5
+ExeStack:
+	(print (var_c);(IF (var_c) THEN ((readFile (var_c,var_f) ;print (var_c))) ELSE (print (0)) ;closeFile ( var_f )))
+Sym Table:
+	var_f = 543969978
+File Table:
+	543969978 = Filename: test.in
+Heap: 
+Print output:
+
+
+
+
+Id:
+	5
+ExeStack:
+	(IF (var_c) THEN ((readFile (var_c,var_f) ;print (var_c))) ELSE (print (0)) ;closeFile ( var_f ))
+	print (var_c)
+Sym Table:
+	var_f = 543969978
+File Table:
+	543969978 = Filename: test.in
+Heap: 
+Print output:
+
+
+
+
+Id:
+	5
+ExeStack:
+	(IF (var_c) THEN ((readFile (var_c,var_f) ;print (var_c))) ELSE (print (0)) ;closeFile ( var_f ))
+	print (var_c)
+Sym Table:
+	var_f = 543969978
+File Table:
+	543969978 = Filename: test.in
+Heap: 
+Print output:
+
+
+
+
+Id:
+	5
+ExeStack:
+	(IF (var_c) THEN ((readFile (var_c,var_f) ;print (var_c))) ELSE (print (0)) ;closeFile ( var_f ))
+Sym Table:
+	var_f = 543969978
+File Table:
+	543969978 = Filename: test.in
+Heap: 
+Print output:
+
+
+
+
+Id:
+	5
+ExeStack:
+	(IF (var_c) THEN ((readFile (var_c,var_f) ;print (var_c))) ELSE (print (0)) ;closeFile ( var_f ))
+Sym Table:
+	var_f = 543969978
+File Table:
+	543969978 = Filename: test.in
+Heap: 
+Print output:
+
+
+
+
+Id:
+	5
+ExeStack:
+	closeFile ( var_f )
+	IF (var_c) THEN ((readFile (var_c,var_f) ;print (var_c))) ELSE (print (0)) 
+Sym Table:
+	var_f = 543969978
+File Table:
+	543969978 = Filename: test.in
+Heap: 
+Print output:
+
+
+
+
+Id:
+	5
+ExeStack:
+	closeFile ( var_f )
+	IF (var_c) THEN ((readFile (var_c,var_f) ;print (var_c))) ELSE (print (0)) 
+Sym Table:
+	var_f = 543969978
+File Table:
+	543969978 = Filename: test.in
+Heap: 
+Print output:
+
+
+
+
+Id:
+	5
+ExeStack:
+	closeFile ( var_f )
+Sym Table:
+	var_f = 543969978
+File Table:
+	543969978 = Filename: test.in
+Heap: 
+Print output:
+
+
+
+
+Id:
+	5
+ExeStack:
+	closeFile ( var_f )
+Sym Table:
+	var_f = 543969978
+File Table:
+	543969978 = Filename: test.in
+Heap: 
+Print output:
+
+
+
+
+Id:
+	5
+ExeStack:
+Sym Table:
+	var_f = 543969978
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	5
+ExeStack:
+	(openFile (var_f,"test.in");(readFile (var_c,var_f+2) ;(print (var_c);(IF (var_c) THEN ((readFile (var_c,var_f) ;print (var_c))) ELSE (print (0)) ;closeFile ( var_f )))))
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	5
+ExeStack:
+	(readFile (var_c,var_f+2) ;(print (var_c);(IF (var_c) THEN ((readFile (var_c,var_f) ;print (var_c))) ELSE (print (0)) ;closeFile ( var_f ))))
+	openFile (var_f,"test.in")
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	5
+ExeStack:
+	(readFile (var_c,var_f+2) ;(print (var_c);(IF (var_c) THEN ((readFile (var_c,var_f) ;print (var_c))) ELSE (print (0)) ;closeFile ( var_f ))))
+	openFile (var_f,"test.in")
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	5
+ExeStack:
+	(readFile (var_c,var_f+2) ;(print (var_c);(IF (var_c) THEN ((readFile (var_c,var_f) ;print (var_c))) ELSE (print (0)) ;closeFile ( var_f ))))
+Sym Table:
+	var_f = 612073955
+File Table:
+	612073955 = Filename: test.in
+Heap: 
+Print output:
+
+
+
+
+Id:
+	5
+ExeStack:
+	(readFile (var_c,var_f+2) ;(print (var_c);(IF (var_c) THEN ((readFile (var_c,var_f) ;print (var_c))) ELSE (print (0)) ;closeFile ( var_f ))))
+Sym Table:
+	var_f = 612073955
+File Table:
+	612073955 = Filename: test.in
+Heap: 
+Print output:
+
+
+
+
+Id:
+	5
+ExeStack:
+	(print (var_c);(IF (var_c) THEN ((readFile (var_c,var_f) ;print (var_c))) ELSE (print (0)) ;closeFile ( var_f )))
+	readFile (var_c,var_f+2) 
+Sym Table:
+	var_f = 612073955
+File Table:
+	612073955 = Filename: test.in
+Heap: 
+Print output:
+
+
+
+
+Id:
+	5
+ExeStack:
+	(print (var_c);(IF (var_c) THEN ((readFile (var_c,var_f) ;print (var_c))) ELSE (print (0)) ;closeFile ( var_f )))
+	readFile (var_c,var_f+2) 
+Sym Table:
+	var_f = 612073955
+File Table:
+	612073955 = Filename: test.in
+Heap: 
+Print output:
+
+
+
+
+Id:
+	5
+ExeStack:
+	(print (var_c);(IF (var_c) THEN ((readFile (var_c,var_f) ;print (var_c))) ELSE (print (0)) ;closeFile ( var_f )))
+Sym Table:
+	var_f = 612073955
+File Table:
+	612073955 = Filename: test.in
+Heap: 
+Print output:
+
+
+
+
+Id:
+	5
+ExeStack:
+	(print (var_c);(IF (var_c) THEN ((readFile (var_c,var_f) ;print (var_c))) ELSE (print (0)) ;closeFile ( var_f )))
+Sym Table:
+	var_f = 612073955
+File Table:
+	612073955 = Filename: test.in
+Heap: 
+Print output:
+
+
+
+
+Id:
+	5
+ExeStack:
+	(IF (var_c) THEN ((readFile (var_c,var_f) ;print (var_c))) ELSE (print (0)) ;closeFile ( var_f ))
+	print (var_c)
+Sym Table:
+	var_f = 612073955
+File Table:
+	612073955 = Filename: test.in
+Heap: 
+Print output:
+
+
+
+
+Id:
+	5
+ExeStack:
+	(IF (var_c) THEN ((readFile (var_c,var_f) ;print (var_c))) ELSE (print (0)) ;closeFile ( var_f ))
+	print (var_c)
+Sym Table:
+	var_f = 612073955
+File Table:
+	612073955 = Filename: test.in
+Heap: 
+Print output:
+
+
+
+
+Id:
+	5
+ExeStack:
+	(IF (var_c) THEN ((readFile (var_c,var_f) ;print (var_c))) ELSE (print (0)) ;closeFile ( var_f ))
+Sym Table:
+	var_f = 612073955
+File Table:
+	612073955 = Filename: test.in
+Heap: 
+Print output:
+
+
+
+
+Id:
+	5
+ExeStack:
+	(IF (var_c) THEN ((readFile (var_c,var_f) ;print (var_c))) ELSE (print (0)) ;closeFile ( var_f ))
+Sym Table:
+	var_f = 612073955
+File Table:
+	612073955 = Filename: test.in
+Heap: 
+Print output:
+
+
+
+
+Id:
+	5
+ExeStack:
+	closeFile ( var_f )
+	IF (var_c) THEN ((readFile (var_c,var_f) ;print (var_c))) ELSE (print (0)) 
+Sym Table:
+	var_f = 612073955
+File Table:
+	612073955 = Filename: test.in
+Heap: 
+Print output:
+
+
+
+
+Id:
+	5
+ExeStack:
+	closeFile ( var_f )
+	IF (var_c) THEN ((readFile (var_c,var_f) ;print (var_c))) ELSE (print (0)) 
+Sym Table:
+	var_f = 612073955
+File Table:
+	612073955 = Filename: test.in
+Heap: 
+Print output:
+
+
+
+
+Id:
+	5
+ExeStack:
+	closeFile ( var_f )
+Sym Table:
+	var_f = 612073955
+File Table:
+	612073955 = Filename: test.in
+Heap: 
+Print output:
+
+
+
+
+Id:
+	5
+ExeStack:
+	closeFile ( var_f )
+Sym Table:
+	var_f = 612073955
+File Table:
+	612073955 = Filename: test.in
+Heap: 
+Print output:
+
+
+
+
+Id:
+	5
+ExeStack:
+Sym Table:
+	var_f = 612073955
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	5
+ExeStack:
+	(openFile (var_f,"test.in");(readFile (var_c,var_f+2) ;(print (var_c);(IF (var_c) THEN ((readFile (var_c,var_f) ;print (var_c))) ELSE (print (0)) ;closeFile ( var_f )))))
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	5
+ExeStack:
+	(readFile (var_c,var_f+2) ;(print (var_c);(IF (var_c) THEN ((readFile (var_c,var_f) ;print (var_c))) ELSE (print (0)) ;closeFile ( var_f ))))
+	openFile (var_f,"test.in")
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	5
+ExeStack:
+	(readFile (var_c,var_f+2) ;(print (var_c);(IF (var_c) THEN ((readFile (var_c,var_f) ;print (var_c))) ELSE (print (0)) ;closeFile ( var_f ))))
+	openFile (var_f,"test.in")
+Sym Table:
+File Table:
+Heap: 
+Print output:
+
+
+
+
+Id:
+	5
+ExeStack:
+	(readFile (var_c,var_f+2) ;(print (var_c);(IF (var_c) THEN ((readFile (var_c,var_f) ;print (var_c))) ELSE (print (0)) ;closeFile ( var_f ))))
+Sym Table:
+	var_f = 568679586
+File Table:
+	568679586 = Filename: test.in
+Heap: 
+Print output:
+
+
+
+
+Id:
+	5
+ExeStack:
+	(readFile (var_c,var_f+2) ;(print (var_c);(IF (var_c) THEN ((readFile (var_c,var_f) ;print (var_c))) ELSE (print (0)) ;closeFile ( var_f ))))
+Sym Table:
+	var_f = 568679586
+File Table:
+	568679586 = Filename: test.in
+Heap: 
+Print output:
+
+
+
+
+Id:
+	5
+ExeStack:
+	(print (var_c);(IF (var_c) THEN ((readFile (var_c,var_f) ;print (var_c))) ELSE (print (0)) ;closeFile ( var_f )))
+	readFile (var_c,var_f+2) 
+Sym Table:
+	var_f = 568679586
+File Table:
+	568679586 = Filename: test.in
+Heap: 
+Print output:
+
+
+
+
+Id:
+	5
+ExeStack:
+	(print (var_c);(IF (var_c) THEN ((readFile (var_c,var_f) ;print (var_c))) ELSE (print (0)) ;closeFile ( var_f )))
+	readFile (var_c,var_f+2) 
+Sym Table:
+	var_f = 568679586
+File Table:
+	568679586 = Filename: test.in
+Heap: 
+Print output:
+
+
+
+
+Id:
+	5
+ExeStack:
+	(print (var_c);(IF (var_c) THEN ((readFile (var_c,var_f) ;print (var_c))) ELSE (print (0)) ;closeFile ( var_f )))
+Sym Table:
+	var_f = 568679586
+File Table:
+	568679586 = Filename: test.in
+Heap: 
+Print output:
+
+
+
+
+Id:
+	5
+ExeStack:
+	(print (var_c);(IF (var_c) THEN ((readFile (var_c,var_f) ;print (var_c))) ELSE (print (0)) ;closeFile ( var_f )))
+Sym Table:
+	var_f = 568679586
+File Table:
+	568679586 = Filename: test.in
+Heap: 
+Print output:
+
+
+
+
+Id:
+	5
+ExeStack:
+	(IF (var_c) THEN ((readFile (var_c,var_f) ;print (var_c))) ELSE (print (0)) ;closeFile ( var_f ))
+	print (var_c)
+Sym Table:
+	var_f = 568679586
+File Table:
+	568679586 = Filename: test.in
+Heap: 
+Print output:
+
+
+
+
+Id:
+	5
+ExeStack:
+	(IF (var_c) THEN ((readFile (var_c,var_f) ;print (var_c))) ELSE (print (0)) ;closeFile ( var_f ))
+	print (var_c)
+Sym Table:
+	var_f = 568679586
+File Table:
+	568679586 = Filename: test.in
+Heap: 
+Print output:
+
+
+
+
+Id:
+	5
+ExeStack:
+	(IF (var_c) THEN ((readFile (var_c,var_f) ;print (var_c))) ELSE (print (0)) ;closeFile ( var_f ))
+Sym Table:
+	var_f = 568679586
+File Table:
+	568679586 = Filename: test.in
+Heap: 
+Print output:
+
+
+
+
+Id:
+	5
+ExeStack:
+	(IF (var_c) THEN ((readFile (var_c,var_f) ;print (var_c))) ELSE (print (0)) ;closeFile ( var_f ))
+Sym Table:
+	var_f = 568679586
+File Table:
+	568679586 = Filename: test.in
+Heap: 
+Print output:
+
+
+
+
+Id:
+	5
+ExeStack:
+	closeFile ( var_f )
+	IF (var_c) THEN ((readFile (var_c,var_f) ;print (var_c))) ELSE (print (0)) 
+Sym Table:
+	var_f = 568679586
+File Table:
+	568679586 = Filename: test.in
+Heap: 
+Print output:
+
+
+
+
+Id:
+	5
+ExeStack:
+	closeFile ( var_f )
+	IF (var_c) THEN ((readFile (var_c,var_f) ;print (var_c))) ELSE (print (0)) 
+Sym Table:
+	var_f = 568679586
+File Table:
+	568679586 = Filename: test.in
+Heap: 
+Print output:
+
+
+
+
+Id:
+	5
+ExeStack:
+	closeFile ( var_f )
+Sym Table:
+	var_f = 568679586
+File Table:
+	568679586 = Filename: test.in
+Heap: 
+Print output:
+
+
+
+
+Id:
+	5
+ExeStack:
+	closeFile ( var_f )
+Sym Table:
+	var_f = 568679586
+File Table:
+	568679586 = Filename: test.in
+Heap: 
+Print output:
+
+
+
+
+Id:
+	5
+ExeStack:
+Sym Table:
+	var_f = 568679586
+File Table:
+Heap: 
+Print output:
+
+
+
+

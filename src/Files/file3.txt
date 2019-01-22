@@ -1,0 +1,455 @@
+ExeStack:
+	(IF ( a ) THEN ( v = 2) ELSE ( v = 3 ) ;print( v ))
+	a = 2-2
+
+Sym Table:
+
+Print output:
+
+ExeStack:
+	(IF ( a ) THEN ( v = 2) ELSE ( v = 3 ) ;print( v ))
+
+Sym Table:
+	a = 0
+
+Print output:
+
+ExeStack:
+	print( v )
+	IF ( a ) THEN ( v = 2) ELSE ( v = 3 ) 
+
+Sym Table:
+	a = 0
+
+Print output:
+
+ExeStack:
+	print( v )
+	v = 3
+
+Sym Table:
+	a = 0
+
+Print output:
+
+ExeStack:
+	print( v )
+
+Sym Table:
+	a = 0
+	v = 3
+
+Print output:
+
+ExeStack:
+
+Sym Table:
+	a = 0
+	v = 3
+
+Print output:
+	3
+ExeStack:
+	(IF ( a ) THEN ( v = 2) ELSE ( v = 3 ) ;print( v ))
+	a = 2-2
+
+Sym Table:
+
+Print output:
+
+ExeStack:
+	(IF ( a ) THEN ( v = 2) ELSE ( v = 3 ) ;print( v ))
+
+Sym Table:
+	a = 0
+
+Print output:
+
+ExeStack:
+	print( v )
+	IF ( a ) THEN ( v = 2) ELSE ( v = 3 ) 
+
+Sym Table:
+	a = 0
+
+Print output:
+
+ExeStack:
+	print( v )
+	v = 3
+
+Sym Table:
+	a = 0
+
+Print output:
+
+ExeStack:
+	print( v )
+
+Sym Table:
+	a = 0
+	v = 3
+
+Print output:
+
+ExeStack:
+
+Sym Table:
+	a = 0
+	v = 3
+
+Print output:
+	3
+ExeStack:
+	(IF ( a ) THEN ( v = 2) ELSE ( v = 3 ) ;print( v ))
+	a = 2-2
+
+Sym Table:
+
+Print output:
+
+ExeStack:
+	(IF ( a ) THEN ( v = 2) ELSE ( v = 3 ) ;print( v ))
+
+Sym Table:
+	a = 0
+
+Print output:
+
+ExeStack:
+	print( v )
+	IF ( a ) THEN ( v = 2) ELSE ( v = 3 ) 
+
+Sym Table:
+	a = 0
+
+Print output:
+
+ExeStack:
+	print( v )
+	v = 3
+
+Sym Table:
+	a = 0
+
+Print output:
+
+ExeStack:
+	print( v )
+
+Sym Table:
+	a = 0
+	v = 3
+
+Print output:
+
+ExeStack:
+
+Sym Table:
+	a = 0
+	v = 3
+
+Print output:
+	3
+ExeStack:
+	(IF (a) THEN (v = 2) ELSE (v = 3) ;print (v))
+	a = 2-2
+
+Sym Table:
+
+Print output:
+
+ExeStack:
+	(IF (a) THEN (v = 2) ELSE (v = 3) ;print (v))
+
+Sym Table:
+	a = 0
+
+Print output:
+
+ExeStack:
+	print (v)
+	IF (a) THEN (v = 2) ELSE (v = 3) 
+
+Sym Table:
+	a = 0
+
+Print output:
+
+ExeStack:
+	print (v)
+	v = 3
+
+Sym Table:
+	a = 0
+
+Print output:
+
+ExeStack:
+	print (v)
+
+Sym Table:
+	a = 0
+	v = 3
+
+Print output:
+
+ExeStack:
+
+Sym Table:
+	a = 0
+	v = 3
+
+Print output:
+	3
+ExeStack:
+	(IF (a) THEN (v = 2) ELSE (v = 3) ;print (v))
+	a = 2-2
+
+Sym Table:
+
+Heap:
+ 
+Print output:
+
+ExeStack:
+	(IF (a) THEN (v = 2) ELSE (v = 3) ;print (v))
+
+Sym Table:
+	a = 0
+
+Heap:
+ 
+Print output:
+
+ExeStack:
+	print (v)
+	IF (a) THEN (v = 2) ELSE (v = 3) 
+
+Sym Table:
+	a = 0
+
+Heap:
+ 
+Print output:
+
+ExeStack:
+	print (v)
+	v = 3
+
+Sym Table:
+	a = 0
+
+Heap:
+ 
+Print output:
+
+ExeStack:
+	print (v)
+
+Sym Table:
+	a = 0
+	v = 3
+
+Heap:
+ 
+Print output:
+
+ExeStack:
+
+Sym Table:
+	a = 0
+	v = 3
+
+Heap:
+ 
+Print output:
+	3
+ExeStack:
+	(IF (a) THEN (v = 2) ELSE (v = 3) ;print (v))
+	a = 2-2
+
+Sym Table:
+
+Heap:
+ 
+Print output:
+
+ExeStack:
+	(IF (a) THEN (v = 2) ELSE (v = 3) ;print (v))
+
+Sym Table:
+	a = 0
+
+Heap:
+ 
+Print output:
+
+ExeStack:
+	print (v)
+	IF (a) THEN (v = 2) ELSE (v = 3) 
+
+Sym Table:
+	a = 0
+
+Heap:
+ 
+Print output:
+
+ExeStack:
+	print (v)
+	v = 3
+
+Sym Table:
+	a = 0
+
+Heap:
+ 
+Print output:
+
+ExeStack:
+	print (v)
+
+Sym Table:
+	a = 0
+	v = 3
+
+Heap:
+ 
+Print output:
+
+ExeStack:
+
+Sym Table:
+	a = 0
+	v = 3
+
+Heap:
+ 
+Print output:
+	3
+ExeStack:
+	(a = 2-2;(IF (a) THEN (v = 2) ELSE (v = 3) ;print (v)))
+
+Sym Table:
+
+Heap:
+ 
+Print output:
+
+ExeStack:
+	(IF (a) THEN (v = 2) ELSE (v = 3) ;print (v))
+	a = 2-2
+
+Sym Table:
+
+Heap:
+ 
+Print output:
+
+ExeStack:
+	(IF (a) THEN (v = 2) ELSE (v = 3) ;print (v))
+	a = 2-2
+
+Sym Table:
+
+Heap:
+ 
+Print output:
+
+ExeStack:
+	(IF (a) THEN (v = 2) ELSE (v = 3) ;print (v))
+
+Sym Table:
+	a = 0
+
+Heap:
+ 
+Print output:
+
+ExeStack:
+	(IF (a) THEN (v = 2) ELSE (v = 3) ;print (v))
+
+Sym Table:
+	a = 0
+
+Heap:
+ 
+Print output:
+
+ExeStack:
+	print (v)
+	IF (a) THEN (v = 2) ELSE (v = 3) 
+
+Sym Table:
+	a = 0
+
+Heap:
+ 
+Print output:
+
+ExeStack:
+	print (v)
+	IF (a) THEN (v = 2) ELSE (v = 3) 
+
+Sym Table:
+	a = 0
+
+Heap:
+ 
+Print output:
+
+ExeStack:
+	print (v)
+	v = 3
+
+Sym Table:
+	a = 0
+
+Heap:
+ 
+Print output:
+
+ExeStack:
+	print (v)
+	v = 3
+
+Sym Table:
+	a = 0
+
+Heap:
+ 
+Print output:
+
+ExeStack:
+	print (v)
+
+Sym Table:
+	a = 0
+	v = 3
+
+Heap:
+ 
+Print output:
+
+ExeStack:
+	print (v)
+
+Sym Table:
+	a = 0
+	v = 3
+
+Heap:
+ 
+Print output:
+
+ExeStack:
+
+Sym Table:
+	a = 0
+	v = 3
+
+Heap:
+ 
+Print output:
+	3
