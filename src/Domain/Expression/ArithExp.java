@@ -1,7 +1,10 @@
 package Domain.Expression;
 
 import Domain.ADT.IDictionary;
-import Exceptions.*;
+import Exceptions.DivisionByZeroException;
+import Exceptions.HeapVariableNotFoundException;
+import Exceptions.InvalidOperatorException;
+import Exceptions.VariableNotFoundException;
 
 
 public class ArithExp extends Exp {
@@ -16,21 +19,20 @@ public class ArithExp extends Exp {
     }
 
     @Override
-    public int evaluate(IDictionary<String, Integer> table,  IDictionary<Integer, Integer> heap) throws DivisionByZeroException, InvalidOperatorException, VariableNotFound, HeapVariableNotFoundException {
+    public int evaluate(IDictionary<String, Integer> symTable, IDictionary<Integer, Integer> heapTable) throws DivisionByZeroException, InvalidOperatorException, VariableNotFoundException, HeapVariableNotFoundException {
         try {
             if (operator == '+')
-                return exp1.evaluate(table, heap) + exp2.evaluate(table, heap);
+                return exp1.evaluate(symTable, heapTable) + exp2.evaluate(symTable, heapTable);
             if (operator == '-')
-                return exp1.evaluate(table, heap) - exp2.evaluate(table, heap);
+                return exp1.evaluate(symTable, heapTable) - exp2.evaluate(symTable, heapTable);
             if (operator == '*')
-                return exp1.evaluate(table, heap) * exp2.evaluate(table, heap);
-            if (operator == '/' && exp2.evaluate(table, heap) != 0)
-                return exp1.evaluate(table, heap) / exp2.evaluate(table, heap);
-            else if (exp2.evaluate(table, heap) == 0)
+                return exp1.evaluate(symTable, heapTable) * exp2.evaluate(symTable, heapTable);
+            if (operator == '/' && exp2.evaluate(symTable, heapTable) != 0)
+                return exp1.evaluate(symTable, heapTable) / exp2.evaluate(symTable, heapTable);
+            else if (exp2.evaluate(symTable, heapTable) == 0)
                 throw new DivisionByZeroException();
             throw new InvalidOperatorException();
-        }
-        catch (DivisionByZeroException | InvalidOperatorException | VariableNotFound | HeapVariableNotFoundException e){
+        } catch (DivisionByZeroException | InvalidOperatorException | VariableNotFoundException | HeapVariableNotFoundException e) {
             throw e;
         }
     }

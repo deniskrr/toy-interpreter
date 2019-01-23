@@ -1,19 +1,14 @@
 package GUI;
 
 import Controller.Controller;
-import Domain.ADT.IStack;
 import Domain.FileData;
 import Domain.PrgState;
-import Domain.Statements.IStmt;
 import Exceptions.*;
-import Repository.IRepository;
 import javafx.application.Platform;
-import javafx.beans.property.ReadOnlyObjectWrapper;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.collections.FXCollections;
-import javafx.collections.ListChangeListener;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
@@ -21,11 +16,9 @@ import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.util.Callback;
 
-import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
-import java.util.stream.Collectors;
 
 
 public class GUIProgramController {
@@ -203,7 +196,7 @@ public class GUIProgramController {
                         }
                     } catch (DivisionByZeroException |
                             InvalidOperatorException |
-                            VariableNotFound |
+                            VariableNotFoundException |
                             HeapWritingException |
                             HeapVariableNotFoundException |
                             EmptyStackException e) {

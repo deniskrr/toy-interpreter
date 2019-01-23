@@ -75,15 +75,13 @@ public class GUIMainController {
 
                 try {
                     FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("program.fxml"));
-                    GridPane secondaryLayout = (GridPane) fxmlLoader.load();
-                    GUIProgramController controller = fxmlLoader.getController();;
+                    GridPane secondaryLayout = fxmlLoader.load();
+                    GUIProgramController controller = fxmlLoader.getController();
                     RunCommand currentCommand = (RunCommand) programList.getSelectionModel().getSelectedItem();
 
                     controller.setController(currentCommand.getController(  ));
 
                     Scene newScene = new Scene(secondaryLayout, 600, 600);
-
-
                     Stage newWindow = new Stage();
                     newWindow.setTitle("Program Execution");
                     newWindow.setScene(newScene);

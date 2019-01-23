@@ -29,7 +29,7 @@ public class RunCommand extends Command {
             ctrl.allStepEvaluation();
         } catch (DivisionByZeroException |
                 InvalidOperatorException |
-                VariableNotFound |
+                VariableNotFoundException |
                 HeapWritingException |
                 HeapVariableNotFoundException |
                 EmptyStackException e) {

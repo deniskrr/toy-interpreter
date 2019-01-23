@@ -14,6 +14,7 @@ import Domain.Statements.FileStatements.OpenFile;
 import Domain.Statements.FileStatements.ReadFile;
 import Domain.Statements.HeapStatements.HeapAllocationStmt;
 import Domain.Statements.HeapStatements.HeapWrittingStmt;
+import Domain.Statements.SemaphoreStatements.NewSemaphoreStmt;
 import GUI.GUIInterpreter;
 import Repository.TextRepository;
 import View.TextInterpreter;
@@ -137,6 +138,9 @@ public class AppMain {
                                         new AssignStmt("v", new ArithExp('+', new VarExp("v"), new ConstExp(1)))))),
                         new PrintStmt(new ArithExp('*', new VarExp("v"), new ConstExp(10)))));
         commandList.add(createCommand(ex14));
+
+        IStmt ex15 = new NewSemaphoreStmt("v", new ConstExp(10));
+        commandList.add(createCommand(ex15));
 
         return commandList;
     }

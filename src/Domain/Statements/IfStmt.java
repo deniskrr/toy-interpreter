@@ -4,7 +4,10 @@ import Domain.ADT.IDictionary;
 import Domain.ADT.IStack;
 import Domain.Expression.Exp;
 import Domain.PrgState;
-import Exceptions.*;
+import Exceptions.DivisionByZeroException;
+import Exceptions.HeapVariableNotFoundException;
+import Exceptions.InvalidOperatorException;
+import Exceptions.VariableNotFoundException;
 
 public class IfStmt implements IStmt{
 
@@ -18,7 +21,7 @@ public class IfStmt implements IStmt{
     }
 
     @Override
-    public PrgState execute(PrgState state) throws DivisionByZeroException, InvalidOperatorException, VariableNotFound, HeapVariableNotFoundException {
+    public PrgState execute(PrgState state) throws DivisionByZeroException, InvalidOperatorException, VariableNotFoundException, HeapVariableNotFoundException {
         try {
             IStack<IStmt> stack = state.getExeStack();
             IDictionary<String, Integer> symTable = state.getSymTable();
@@ -27,8 +30,7 @@ public class IfStmt implements IStmt{
             else
                 stack.push(elseS);
             return null;
-        }
-        catch (DivisionByZeroException | InvalidOperatorException | VariableNotFound e){
+        } catch (DivisionByZeroException | InvalidOperatorException | VariableNotFoundException e) {
             throw e;
         }
     }

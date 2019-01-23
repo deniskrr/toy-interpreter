@@ -19,7 +19,7 @@ public class ReadFile implements IStmt {
     }
 
     @Override
-    public PrgState execute(PrgState state) throws FileException, DivisionByZeroException, InvalidOperatorException, VariableNotFound, HeapVariableNotFoundException {
+    public PrgState execute(PrgState state) throws FileReadException, DivisionByZeroException, InvalidOperatorException, VariableNotFoundException, HeapVariableNotFoundException {
 
         try {
             int eval = expFileId.evaluate(state.getSymTable(), state.getHeap());
@@ -39,9 +39,8 @@ public class ReadFile implements IStmt {
                 state.getSymTable().add(varName,value);
         }
         catch (IOException e){
-            throw new FileException();
-        }
-        catch (DivisionByZeroException | InvalidOperatorException | VariableNotFound e){
+            throw new FileReadException();
+        } catch (DivisionByZeroException | InvalidOperatorException | VariableNotFoundException e) {
             throw e;
         }
         return null;

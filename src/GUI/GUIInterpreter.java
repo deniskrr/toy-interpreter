@@ -12,10 +12,10 @@ public class GUIInterpreter extends Application {
     public void start(Stage primaryStage) throws Exception {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("app.fxml"));
 
-        BorderPane root = (BorderPane) fxmlLoader.load();
+        BorderPane root = fxmlLoader.load();
         Scene scene = new Scene(root, 800, 640);
         primaryStage.setScene(scene);
-        primaryStage.setTitle("TextInterpreter");
+        primaryStage.setTitle("Toy Interpreter  ");
         GUIMainController controller = fxmlLoader.getController();
         controller.setMainStage(primaryStage);
         primaryStage.show();

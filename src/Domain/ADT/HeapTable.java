@@ -1,14 +1,17 @@
 package Domain.ADT;
 
-import java.util.*;
+import Exceptions.VariableNotFoundException;
 
-import Exceptions.*;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
 
-public class Heap<K,V> implements IDictionary<K,V> {
+public class HeapTable<K, V> implements IDictionary<K, V> {
 
     private HashMap<K,V> dictionary;
 
-    public Heap(){
+    public HeapTable() {
         dictionary = new HashMap<K,V>();
     }
 
@@ -18,17 +21,15 @@ public class Heap<K,V> implements IDictionary<K,V> {
     }
 
     @Override
-    public V getValueForKey(K key) throws VariableNotFound {
+    public V getValueForKey(K key) throws VariableNotFoundException {
         if(dictionary.get(key) != null)
             return dictionary.get(key);
-        throw new VariableNotFound();
+        throw new VariableNotFoundException();
     }
 
     @Override
     public boolean checkExistence(K key){
-        if (dictionary.get(key) != null)
-            return true;
-        return false;
+        return dictionary.get(key) != null;
     }
 
     @Override

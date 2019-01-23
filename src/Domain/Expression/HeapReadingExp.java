@@ -1,7 +1,8 @@
 package Domain.Expression;
 
 import Domain.ADT.IDictionary;
-import Exceptions.*;
+import Exceptions.HeapVariableNotFoundException;
+import Exceptions.VariableNotFoundException;
 
 public class HeapReadingExp extends Exp {
 
@@ -12,12 +13,12 @@ public class HeapReadingExp extends Exp {
     }
 
     @Override
-    public int evaluate(IDictionary<String, Integer> table, IDictionary<Integer, Integer> heap) throws VariableNotFound, HeapVariableNotFoundException {
+    public int evaluate(IDictionary<String, Integer> symTable, IDictionary<Integer, Integer> heapTable) throws VariableNotFoundException, HeapVariableNotFoundException {
         try {
-            int value = table.getValueForKey(var);
-            return heap.getValueForKey(value);
+            int value = symTable.getValueForKey(var);
+            return heapTable.getValueForKey(value);
 
-        } catch (VariableNotFound e) {
+        } catch (VariableNotFoundException e) {
             throw e;
         }
     }

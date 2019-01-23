@@ -1,11 +1,11 @@
 package Domain.ADT;
 
+import Exceptions.VariableNotFoundException;
+
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
-
-import Exceptions.*;
 
 public class FileTable<K,V> implements IDictionary<K,V> {
 
@@ -21,17 +21,15 @@ public class FileTable<K,V> implements IDictionary<K,V> {
     }
 
     @Override
-    public V getValueForKey(K key) throws VariableNotFound {
+    public V getValueForKey(K key) throws VariableNotFoundException {
         if(fileTable.get(key) != null)
             return fileTable.get(key);
-        throw new VariableNotFound();
+        throw new VariableNotFoundException();
     }
 
     @Override
     public boolean checkExistence(K key){
-        if (fileTable.get(key) != null)
-            return true;
-        return false;
+        return fileTable.get(key) != null;
     }
 
     @Override

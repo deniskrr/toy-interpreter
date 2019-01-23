@@ -1,8 +1,11 @@
 package Domain.ADT;
 
-import Exceptions.*;
+import Exceptions.VariableNotFoundException;
 
-import java.util.*;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
 
 public interface IDictionary<K,V> {
 
@@ -26,9 +29,9 @@ public interface IDictionary<K,V> {
      * Get the value for a given key
      * @param key - the givem key
      * @return the value corresponding to the given key
-     * @throws VariableNotFound if the key was not found
+     * @throws VariableNotFoundException if the key was not found
      */
-    V getValueForKey(K key) throws VariableNotFound;
+    V getValueForKey(K key) throws VariableNotFoundException;
 
     /**
      * Check if a given key is in the dictionary

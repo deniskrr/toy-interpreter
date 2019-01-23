@@ -1,10 +1,11 @@
 package Domain.Statements.FileStatements;
 
 import Domain.ADT.IDictionary;
+import Domain.FileData;
 import Domain.PrgState;
 import Domain.Statements.IStmt;
-import Domain.FileData;
-import Exceptions.*;
+import Exceptions.FileAlreadyExistsException;
+import Exceptions.FileReadException;
 import Utils.IdGenerator;
 
 import java.io.BufferedReader;
@@ -30,7 +31,7 @@ public class OpenFile implements IStmt {
     }
 
     @Override
-    public PrgState execute(PrgState state) throws FileAlreadyExistsException, FileException {
+    public PrgState execute(PrgState state) throws FileAlreadyExistsException, FileReadException {
 
         BufferedReader reader;
         try{
@@ -47,7 +48,7 @@ public class OpenFile implements IStmt {
 
         }
         catch(IOException e){
-            throw new FileException();
+            throw new FileReadException();
         }
         catch (NullPointerException e){
             System.err.println("Null pointer");

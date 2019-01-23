@@ -3,9 +3,12 @@ package Domain.Statements;
 
 import Domain.ADT.IDictionary;
 import Domain.ADT.IList;
-import Domain.Expression.*;
+import Domain.Expression.Exp;
 import Domain.PrgState;
-import Exceptions.*;
+import Exceptions.DivisionByZeroException;
+import Exceptions.HeapVariableNotFoundException;
+import Exceptions.InvalidOperatorException;
+import Exceptions.VariableNotFoundException;
 
 public class PrintStmt implements IStmt {
 
@@ -16,12 +19,12 @@ public class PrintStmt implements IStmt {
     }
 
     @Override
-    public PrgState execute(PrgState state) throws DivisionByZeroException, InvalidOperatorException, VariableNotFound, HeapVariableNotFoundException {
+    public PrgState execute(PrgState state) throws DivisionByZeroException, InvalidOperatorException, VariableNotFoundException, HeapVariableNotFoundException {
         try{
             IList<Integer> queue = state.getOut();
             IDictionary<String,Integer> symTable = state.getSymTable();
             queue.add(exp.evaluate(symTable, state.getHeap()));
-        } catch (InvalidOperatorException | VariableNotFound | DivisionByZeroException e) {
+        } catch (InvalidOperatorException | VariableNotFoundException | DivisionByZeroException e) {
             throw e;
         }
         return null;

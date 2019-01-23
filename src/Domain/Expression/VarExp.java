@@ -1,7 +1,7 @@
 package Domain.Expression;
 
 import Domain.ADT.IDictionary;
-import Exceptions.*;
+import Exceptions.VariableNotFoundException;
 
 public class VarExp extends Exp {
 
@@ -14,11 +14,11 @@ public class VarExp extends Exp {
 
 
     @Override
-    public int evaluate(IDictionary<String, Integer> table,  IDictionary<Integer, Integer> heap) throws VariableNotFound {
+    public int evaluate(IDictionary<String, Integer> symTable, IDictionary<Integer, Integer> heapTable) throws VariableNotFoundException {
         try{
-            return table.getValueForKey(var);
+            return symTable.getValueForKey(var);
 
-        } catch (VariableNotFound e){
+        } catch (VariableNotFoundException e) {
             throw e;
         }
     }

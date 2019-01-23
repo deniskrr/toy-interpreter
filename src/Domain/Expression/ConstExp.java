@@ -11,7 +11,7 @@ public class ConstExp extends Exp {
     }
 
     @Override
-    public int evaluate(IDictionary<String, Integer> table,  IDictionary<Integer, Integer> heap){
+    public int evaluate(IDictionary<String, Integer> symTable, IDictionary<Integer, Integer> heapTable) {
         return value;
     }
 

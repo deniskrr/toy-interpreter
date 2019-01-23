@@ -23,7 +23,7 @@ public class ForStmt implements IStmt {
     }
 
     @Override
-    public PrgState execute(PrgState state) throws DivisionByZeroException, InvalidOperatorException, VariableNotFound, FileAlreadyExistsException, FileException, HeapWritingException, HeapVariableNotFoundException {
+    public PrgState execute(PrgState state) throws DivisionByZeroException, InvalidOperatorException, VariableNotFoundException, FileAlreadyExistsException, FileReadException, HeapWritingException, HeapVariableNotFoundException {
         IStack<IStmt> stack = state.getExeStack();
         IStmt forStmt = new CompStmt(new AssignStmt(var, start),
                 new WhileStmt(new BooleanExp(new VarExp(var), cond, "<"), new CompStmt(stmt, new AssignStmt(var, going))));

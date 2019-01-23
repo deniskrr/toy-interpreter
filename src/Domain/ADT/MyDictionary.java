@@ -1,9 +1,11 @@
 package Domain.ADT;
 
-import java.util.*;
+import Exceptions.VariableNotFoundException;
 
-import Exceptions.*;
-import javafx.collections.ObservableMap;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
 
 public class MyDictionary<K,V> implements IDictionary<K,V> {
 
@@ -18,17 +20,15 @@ public class MyDictionary<K,V> implements IDictionary<K,V> {
     }
 
     @Override
-    public V getValueForKey(K key) throws VariableNotFound {
+    public V getValueForKey(K key) throws VariableNotFoundException {
         if(dictionary.get(key) != null)
             return dictionary.get(key);
-        throw new VariableNotFound();
+        throw new VariableNotFoundException();
     }
 
     @Override
     public boolean checkExistence(K key){
-        if (dictionary.get(key) != null)
-            return true;
-        return false;
+        return dictionary.get(key) != null;
     }
 
     @Override

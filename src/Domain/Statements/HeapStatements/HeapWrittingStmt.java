@@ -17,7 +17,7 @@ public class HeapWrittingStmt implements IStmt {
     }
 
     @Override
-    public PrgState execute(PrgState state) throws DivisionByZeroException, InvalidOperatorException, VariableNotFound, HeapWritingException, HeapVariableNotFoundException {
+    public PrgState execute(PrgState state) throws DivisionByZeroException, InvalidOperatorException, VariableNotFoundException, HeapWritingException, HeapVariableNotFoundException {
 
         try {
             IDictionary<String, Integer> symTable = state.getSymTable();
@@ -30,8 +30,7 @@ public class HeapWrittingStmt implements IStmt {
                 heap.update(keyHeap, valueHeap);
             else
                 throw new HeapWritingException();
-        }
-        catch (VariableNotFound e){
+        } catch (VariableNotFoundException e) {
             throw e;
         }
         return null;
