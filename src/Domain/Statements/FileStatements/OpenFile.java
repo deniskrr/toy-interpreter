@@ -31,7 +31,7 @@ public class OpenFile implements IStmt {
     }
 
     @Override
-    public PrgState execute(PrgState state) throws FileAlreadyExistsException, FileReadException {
+    public PrgState execute(PrgState state) {
 
         BufferedReader reader;
         try{
@@ -52,9 +52,6 @@ public class OpenFile implements IStmt {
         }
         catch (NullPointerException e){
             System.err.println("Null pointer");
-        }
-        catch (FileAlreadyExistsException e){
-            throw new FileAlreadyExistsException();
         }
         return null;
     }

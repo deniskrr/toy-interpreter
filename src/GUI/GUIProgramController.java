@@ -14,6 +14,7 @@ import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
+import javafx.stage.Stage;
 import javafx.util.Callback;
 
 import java.util.ArrayList;
@@ -186,7 +187,19 @@ public class GUIProgramController {
                 public void handle(ActionEvent event) {
                     try {
                         if (prgStates.size() > 0) {
-                            ctrl.oneStepForAllPrg(prgStates);
+                            try {
+                                ctrl.oneStepForAllPrg(prgStates);
+                            } catch (DivisionByZeroException |
+                                    FileAlreadyExistsException |
+                                    FileReadException |
+                                    HeapVariableNotFoundException |
+                                    HeapWritingException |
+                                    InvalidOperatorException |
+                                    VariableNotFoundException e) {
+                                e.printStackTrace();
+                                Stage stage = (Stage) oneStepButton.getScene().getWindow();
+                                stage.close();
+                            }
 
                             // Refresh once more in case of the last program
                             refresh(identifierView.getSelectionModel().getSelectedItem());

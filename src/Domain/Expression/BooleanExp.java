@@ -1,10 +1,6 @@
 package Domain.Expression;
 
 import Domain.ADT.IDictionary;
-import Exceptions.DivisionByZeroException;
-import Exceptions.HeapVariableNotFoundException;
-import Exceptions.InvalidOperatorException;
-import Exceptions.VariableNotFoundException;
 
 public class BooleanExp extends Exp {
 
@@ -18,7 +14,7 @@ public class BooleanExp extends Exp {
     }
 
     @Override
-    public int evaluate(IDictionary<String, Integer> symTable, IDictionary<Integer, Integer> heapTable) throws DivisionByZeroException, InvalidOperatorException, VariableNotFoundException, HeapVariableNotFoundException {
+    public int evaluate(IDictionary<String, Integer> symTable, IDictionary<Integer, Integer> heapTable) {
 
         if (option.equals("<")) {
             if (exp1.evaluate(symTable, heapTable) < exp2.evaluate(symTable, heapTable))

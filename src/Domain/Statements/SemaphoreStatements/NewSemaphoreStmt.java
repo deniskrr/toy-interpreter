@@ -6,7 +6,6 @@ import Domain.Expression.Exp;
 import Domain.PrgState;
 import Domain.SemaphoreEntry;
 import Domain.Statements.IStmt;
-import Exceptions.*;
 
 public class NewSemaphoreStmt implements IStmt {
 
@@ -19,7 +18,7 @@ public class NewSemaphoreStmt implements IStmt {
     }
 
     @Override
-    public PrgState execute(PrgState state) throws DivisionByZeroException, InvalidOperatorException, VariableNotFoundException, FileAlreadyExistsException, FileReadException, HeapWritingException, HeapVariableNotFoundException {
+    public PrgState execute(PrgState state) {
         IDictionary<String, Integer> symTable = state.getSymTable();
         IDictionary<Integer, SemaphoreEntry> semaphoreTable = state.getSemaphoreTable();
         int value = exp.evaluate(symTable, state.getHeap());

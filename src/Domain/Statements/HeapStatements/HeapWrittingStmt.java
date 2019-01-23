@@ -4,7 +4,7 @@ import Domain.ADT.IDictionary;
 import Domain.Expression.Exp;
 import Domain.PrgState;
 import Domain.Statements.IStmt;
-import Exceptions.*;
+import Exceptions.HeapWritingException;
 
 public class HeapWrittingStmt implements IStmt {
 
@@ -17,22 +17,18 @@ public class HeapWrittingStmt implements IStmt {
     }
 
     @Override
-    public PrgState execute(PrgState state) throws DivisionByZeroException, InvalidOperatorException, VariableNotFoundException, HeapWritingException, HeapVariableNotFoundException {
+    public PrgState execute(PrgState state) {
+        IDictionary<String, Integer> symTable = state.getSymTable();
+        IDictionary<Integer, Integer> heap = state.getHeap();
 
-        try {
-            IDictionary<String, Integer> symTable = state.getSymTable();
-            IDictionary<Integer, Integer> heap = state.getHeap();
+        int keyHeap = symTable.getValueForKey(var);
+        int valueHeap = exp.evaluate(symTable, heap);
 
-            int keyHeap = symTable.getValueForKey(var);
-            int valueHeap = exp.evaluate(symTable, heap);
+        if (heap.checkExistence(keyHeap))
+            heap.update(keyHeap, valueHeap);
+        else
+            throw new HeapWritingException();
 
-            if(heap.checkExistence(keyHeap))
-                heap.update(keyHeap, valueHeap);
-            else
-                throw new HeapWritingException();
-        } catch (VariableNotFoundException e) {
-            throw e;
-        }
         return null;
     }
 

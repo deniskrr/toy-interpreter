@@ -22,6 +22,7 @@ public class Controller {
 
     /**
      * Constructor
+     *
      * @param r - repository of the controller
      */
     public Controller(IRepository r) {
@@ -31,6 +32,7 @@ public class Controller {
 
     /**
      * Add a new ProgramState to the controller
+     *
      * @param newProgramState - ProgramState to be added
      */
     public void addProgramState(PrgState newProgramState) {
@@ -39,24 +41,26 @@ public class Controller {
 
     /**
      * Remove the ProgramStates that have finished execution
+     *
      * @param inPrgList - list of controller's ProgramStates
      * @return list The filtered list
      */
-    public List<PrgState> removeCompletedPrg(List<PrgState> inPrgList){
+    public List<PrgState> removeCompletedPrg(List<PrgState> inPrgList) {
         return inPrgList.stream().filter(p -> p.isNotCompleted()).collect(Collectors.toList());
     }
 
     /**
      * Execute one step for every ProgramState
+     *
      * @param prgList List of ProgramStates
-     * @throws DivisionByZeroException Dividing by 0
-     * @throws InvalidOperatorException Creating an ArithmeticExpression with invalid operator
-     * @throws VariableNotFoundException Querying a variable that does not exist
-     * @throws HeapWritingException Updating a key that does not exist
+     * @throws DivisionByZeroException       Dividing by 0
+     * @throws InvalidOperatorException      Creating an ArithmeticExpression with invalid operator
+     * @throws VariableNotFoundException     Querying a variable that does not exist
+     * @throws HeapWritingException          Updating a key that does not exist
      * @throws HeapVariableNotFoundException Querying a key that is not defined in heap
-     * @throws EmptyStackException Empty execution stack
+     * @throws EmptyStackException           Empty execution stack
      */
-    public void oneStepForAllPrg(List<PrgState> prgList) throws DivisionByZeroException, InvalidOperatorException, VariableNotFoundException, HeapWritingException, HeapVariableNotFoundException, EmptyStackException {
+    public void oneStepForAllPrg(List<PrgState> prgList) {
 
         // Log the currernt state of every ProgramState
         prgList.forEach(prg -> repo.logPrgStateExec(prg));
@@ -66,12 +70,11 @@ public class Controller {
                 .map((PrgState p) -> (Callable<PrgState>) (() -> {
                     try {
                         return p.oneStep();
-                    } catch (DivisionByZeroException |
-                            InvalidOperatorException |
-                            VariableNotFoundException |
-                            HeapWritingException |
-                            HeapVariableNotFoundException |
-                            EmptyStackException e){ throw e;}
+                    } catch (RuntimeException e) {
+                        e.printStackTrace();
+                        System.exit(1);
+                        return null;
+                    }
                 }))
                 .collect(Collectors.toList());
 
@@ -86,10 +89,11 @@ public class Controller {
                         } catch (ExecutionException | InterruptedException e) {
                             return null;
                         }
-                        })
+                    })
                     .filter(p -> p != null)
                     .collect(Collectors.toList());
-        } catch (InterruptedException e) {}
+        } catch (InterruptedException e) {
+        }
 
         // Add the newly created threads to the list of existing threads
         prgList.addAll(newPrgList);
@@ -103,34 +107,27 @@ public class Controller {
 
 
     /**
-     *  Execute all steps
-     * @throws DivisionByZeroException Dividing by 0
-     * @throws InvalidOperatorException Creating an ArithmeticExpression with invalid operator
-     * @throws VariableNotFoundException Querying a variable that does not exist
-     * @throws HeapWritingException Updating a key that does not exist
+     * Execute all steps
+     *
+     * @throws DivisionByZeroException       Dividing by 0
+     * @throws InvalidOperatorException      Creating an ArithmeticExpression with invalid operator
+     * @throws VariableNotFoundException     Querying a variable that does not exist
+     * @throws HeapWritingException          Updating a key that does not exist
      * @throws HeapVariableNotFoundException Querying a key that is not defined in heap
-     * @throws EmptyStackException Empty execution stack
+     * @throws EmptyStackException           Empty execution stack
      */
-    public void allStepEvaluation() throws DivisionByZeroException, InvalidOperatorException, VariableNotFoundException, HeapWritingException, HeapVariableNotFoundException, EmptyStackException {
+    public void allStepEvaluation() {
         executor = Executors.newFixedThreadPool(2);
 
         // Remove the completed programs
         List<PrgState> prgStateList = removeCompletedPrg(repo.getProgramStates());
-        while(prgStateList.size() > 0){
+        while (prgStateList.size() > 0) {
 
             // Call the conservativeGarbageCollector
             prgStateList.forEach(program -> program.getHeap().setContent(conservativeGarbageCollector(program.getSymTable().values(), program.getHeap())));
 
-            try {
-                oneStepForAllPrg(prgStateList);
-            } catch (DivisionByZeroException |
-                    InvalidOperatorException |
-                    VariableNotFoundException |
-                    HeapWritingException |
-                    HeapVariableNotFoundException |
-                    EmptyStackException e){
-                throw e;
-            }
+            oneStepForAllPrg(prgStateList);
+
             prgStateList.forEach(program -> System.out.println(program.toString()));
 
             // Remove the completed programs
@@ -141,17 +138,21 @@ public class Controller {
         // Close the files
         List<PrgState> tmpList = repo.getProgramStates();
         tmpList.forEach(program -> program.getFileTable().getDictionary().entrySet()
-                    .stream()
-                    .map(e -> e.getValue()).map(e -> e.getReader())
-                    .forEach(e -> { try { e.close(); } catch (IOException exc){}}));
+                .stream()
+                .map(e -> e.getValue()).map(e -> e.getReader())
+                .forEach(e -> {
+                    try {
+                        e.close();
+                    } catch (IOException exc) {
+                        throw new FileReadException();
+                    }
+                }));
 
         // Update the repository state
         repo.setProgramStates(prgStateList);
-
-
     }
 
-    private Set conservativeGarbageCollector(Collection<Integer> symTableValues, IDictionary<Integer,Integer> heap) {
+    private Set conservativeGarbageCollector(Collection<Integer> symTableValues, IDictionary<Integer, Integer> heap) {
         return heap.getDictionary().entrySet()
                 .stream()
                 .filter(e -> symTableValues.contains(e.getKey()))
@@ -162,46 +163,3 @@ public class Controller {
         return repo;
     }
 }
-
-//    public PrgState oneStepEvaluation(PrgState programState) throws VariableNotFoundException, DivisionByZeroException, InvalidOperatorException, EmptyStackException, HeapWritingException, HeapVariableNotFoundException{
-//
-//        try {
-//            IStack<IStmt> stack = programState.getExeStack();
-//            if (stack.isEmpty())
-//                throw new EmptyStackException();
-//            IStmt currentStatement = stack.pop();
-//            PrgState prg = currentStatement.execute(programState);
-//            return prg;
-//
-//        } catch (FileAlreadyExistsException | FileReadException e) {
-//            System.err.println(e.getMessage());
-//        } catch (DivisionByZeroException | InvalidOperatorException| VariableNotFoundException| EmptyStackException | HeapWritingException | HeapVariableNotFoundException e) {
-//            throw e;
-//        }
-//       return null;
-//    }
-
-//    public void allStepEvaluation() throws VariableNotFoundException, DivisionByZeroException, InvalidOperatorException, EmptyStackException, HeapWritingException, HeapVariableNotFoundException {
-//
-//        PrgState program = repo.getCurrentProgram();
-//        HeapAllocationStmt.setCount(1);
-//        try {
-//            while (true) {
-//                System.out.println(program.toString());
-//                oneStepEvaluation(program);
-//                program.getHeap().setContent(conservativeGarbageCollector(program.getSymTable().values(), program.getHeap()));
-//                repo.logPrgStateExec(program);
-//            }
-//        } catch (DivisionByZeroException | InvalidOperatorException| VariableNotFoundException| EmptyStackException | HeapWritingException | HeapVariableNotFoundException | NullPointerException e) {
-//                throw e;
-//        }
-//        finally {
-//            program.getFileTable().getDictionary().entrySet()
-//                    .stream()
-//                    .map(e -> e.getValue()).map(e -> e.getReader())
-//                    .forEach(e -> { try { e.close(); } catch (IOException exc){}});
-//            program.getFileTable().getDictionary().clear();
-//
-//            System.out.println("All files are closed!");
-//        }
-//    }

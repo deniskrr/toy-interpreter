@@ -3,7 +3,7 @@ package Domain.Statements.FileStatements;
 import Domain.Expression.Exp;
 import Domain.PrgState;
 import Domain.Statements.IStmt;
-import Exceptions.*;
+import Exceptions.FileReadException;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -17,7 +17,7 @@ public class CloseFile implements IStmt {
     }
 
     @Override
-    public PrgState execute(PrgState state) throws DivisionByZeroException, InvalidOperatorException, VariableNotFoundException, FileReadException, HeapVariableNotFoundException {
+    public PrgState execute(PrgState state) {
         try{
             int value = expFileId.evaluate(state.getSymTable(), state.getHeap());
 
@@ -25,11 +25,8 @@ public class CloseFile implements IStmt {
             reader.close();
 
             state.getFileTable().delete(value);
-        }
-        catch (IOException e){
+        } catch (IOException e) {
             throw new FileReadException();
-        } catch (DivisionByZeroException | InvalidOperatorException | VariableNotFoundException e) {
-            throw e;
         }
         return null;
     }

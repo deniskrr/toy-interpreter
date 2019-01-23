@@ -21,7 +21,7 @@ public class FileTable<K,V> implements IDictionary<K,V> {
     }
 
     @Override
-    public V getValueForKey(K key) throws VariableNotFoundException {
+    public V getValueForKey(K key) {
         if(fileTable.get(key) != null)
             return fileTable.get(key);
         throw new VariableNotFoundException();

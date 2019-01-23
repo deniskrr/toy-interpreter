@@ -4,10 +4,6 @@ import Domain.ADT.IDictionary;
 import Domain.ADT.IStack;
 import Domain.Expression.Exp;
 import Domain.PrgState;
-import Exceptions.DivisionByZeroException;
-import Exceptions.HeapVariableNotFoundException;
-import Exceptions.InvalidOperatorException;
-import Exceptions.VariableNotFoundException;
 
 public class WhileStmt implements IStmt {
 
@@ -20,7 +16,7 @@ public class WhileStmt implements IStmt {
     }
 
     @Override
-    public PrgState execute(PrgState state) throws DivisionByZeroException, InvalidOperatorException, VariableNotFoundException, HeapVariableNotFoundException {
+    public PrgState execute(PrgState state) {
         IStack<IStmt> stack = state.getExeStack();
         IDictionary<String, Integer> table = state.getSymTable();
         IDictionary<Integer, Integer> heap = state.getHeap();

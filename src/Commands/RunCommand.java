@@ -1,7 +1,6 @@
 package Commands;
 
 import Controller.Controller;
-import Exceptions.*;
 
 public class RunCommand extends Command {
 
@@ -25,18 +24,7 @@ public class RunCommand extends Command {
 
     @Override
     public void execute() {
-        try {
-            ctrl.allStepEvaluation();
-        } catch (DivisionByZeroException |
-                InvalidOperatorException |
-                VariableNotFoundException |
-                HeapWritingException |
-                HeapVariableNotFoundException |
-                EmptyStackException e) {
-            System.err.println(e.getMessage());
-        } catch (NullPointerException e) {
-            System.err.println("The stack is empty!\n");
-        }
+        ctrl.allStepEvaluation();
     }
 
     public Controller getController() {

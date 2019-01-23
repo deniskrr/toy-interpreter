@@ -2,7 +2,7 @@ package Domain;
 
 import Domain.ADT.*;
 import Domain.Statements.IStmt;
-import Exceptions.*;
+import Exceptions.EmptyStackException;
 
 
 public class PrgState {
@@ -10,7 +10,7 @@ public class PrgState {
     private static int newID = 1;
 
     private IStack<IStmt> exeStack;
-    private IDictionary<String,Integer> symTable;
+    private IDictionary<String, Integer> symTable;
     private IList<Integer> out;
     private IStmt originalProgram;
 
@@ -72,25 +72,15 @@ public class PrgState {
         return str;
     }
 
-    public boolean isNotCompleted(){
+    public boolean isNotCompleted() {
         return !exeStack.isEmpty();
     }
 
     public PrgState oneStep() {
-        try {
-            if (exeStack.isEmpty())
-                throw new EmptyStackException();
-            IStmt crtStmt = exeStack.pop();
-            return crtStmt.execute(this);
-        } catch (DivisionByZeroException |
-                InvalidOperatorException |
-                VariableNotFoundException |
-                HeapWritingException |
-                HeapVariableNotFoundException |
-                EmptyStackException |
-                FileAlreadyExistsException |
-                FileReadException e)
-            { throw e;}
+        if (exeStack.isEmpty())
+            throw new EmptyStackException();
+        IStmt crtStmt = exeStack.pop();
+        return crtStmt.execute(this);
     }
 
     public IDictionary<Integer, Integer> getHeap() {
@@ -113,11 +103,11 @@ public class PrgState {
         this.heap = heap;
     }
 
-    public IStack<IStmt> getExeStack(){
+    public IStack<IStmt> getExeStack() {
         return exeStack;
     }
 
-    public IList<Integer> getOut(){
+    public IList<Integer> getOut() {
         return out;
     }
 

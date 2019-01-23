@@ -5,7 +5,6 @@ import Domain.Expression.BooleanExp;
 import Domain.Expression.Exp;
 import Domain.Expression.VarExp;
 import Domain.PrgState;
-import Exceptions.*;
 
 public class ForStmt implements IStmt {
     private String var;
@@ -23,7 +22,7 @@ public class ForStmt implements IStmt {
     }
 
     @Override
-    public PrgState execute(PrgState state) throws DivisionByZeroException, InvalidOperatorException, VariableNotFoundException, FileAlreadyExistsException, FileReadException, HeapWritingException, HeapVariableNotFoundException {
+    public PrgState execute(PrgState state) {
         IStack<IStmt> stack = state.getExeStack();
         IStmt forStmt = new CompStmt(new AssignStmt(var, start),
                 new WhileStmt(new BooleanExp(new VarExp(var), cond, "<"), new CompStmt(stmt, new AssignStmt(var, going))));

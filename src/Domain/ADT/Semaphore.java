@@ -38,7 +38,7 @@ public class Semaphore<K, V> implements IDictionary<K, V> {
     }
 
     @Override
-    public V getValueForKey(K key) throws VariableNotFoundException {
+    public V getValueForKey(K key) {
         if (checkExistence(key)) {
             return semaphoreTable.get(key);
         }

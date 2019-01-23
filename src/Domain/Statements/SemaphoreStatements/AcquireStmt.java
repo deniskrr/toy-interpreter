@@ -3,7 +3,7 @@ package Domain.Statements.SemaphoreStatements;
 import Domain.PrgState;
 import Domain.SemaphoreEntry;
 import Domain.Statements.IStmt;
-import Exceptions.*;
+import Exceptions.VariableNotFoundException;
 
 public class AcquireStmt implements IStmt {
 
@@ -14,7 +14,7 @@ public class AcquireStmt implements IStmt {
     }
 
     @Override
-    public PrgState execute(PrgState state) throws DivisionByZeroException, InvalidOperatorException, VariableNotFoundException, FileAlreadyExistsException, FileReadException, HeapWritingException, HeapVariableNotFoundException {
+    public PrgState execute(PrgState state) {
 
         if (state.getSymTable().checkExistence(var)) {
             int foundIndex = state.getSymTable().getValueForKey(var);

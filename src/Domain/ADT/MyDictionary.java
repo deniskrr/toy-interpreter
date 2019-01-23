@@ -20,7 +20,7 @@ public class MyDictionary<K,V> implements IDictionary<K,V> {
     }
 
     @Override
-    public V getValueForKey(K key) throws VariableNotFoundException {
+    public V getValueForKey(K key) {
         if(dictionary.get(key) != null)
             return dictionary.get(key);
         throw new VariableNotFoundException();

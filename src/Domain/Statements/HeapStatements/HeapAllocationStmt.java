@@ -22,28 +22,23 @@ public class HeapAllocationStmt implements IStmt {
     }
 
     @Override
-    public PrgState execute(PrgState state){
+    public PrgState execute(PrgState state) {
 
-        try {
-            IDictionary<String, Integer> symTable = state.getSymTable();
-            IDictionary<Integer, Integer> heap = state.getHeap();
-            heap.add(count, exp.evaluate(symTable, heap));
-            if (symTable.checkExistence(varName))
-                symTable.update(varName, count);
-            else
-                symTable.add(varName, count);
-            count++;
-        }
-        catch (Exception e){
-            System.out.println(e.getMessage());
-        }
+        IDictionary<String, Integer> symTable = state.getSymTable();
+        IDictionary<Integer, Integer> heap = state.getHeap();
+        heap.add(count, exp.evaluate(symTable, heap));
+        if (symTable.checkExistence(varName))
+            symTable.update(varName, count);
+        else
+            symTable.add(varName, count);
+        count++;
 
         return null;
     }
 
     @Override
-    public String toString(){
-        return "new (" + this.varName + ", " + this.exp + ")" ;
+    public String toString() {
+        return "new (" + this.varName + ", " + this.exp + ")";
     }
 
     public String getVarName() {

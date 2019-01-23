@@ -142,6 +142,9 @@ public class AppMain {
         IStmt ex15 = new NewSemaphoreStmt("v", new ConstExp(10));
         commandList.add(createCommand(ex15));
 
+        IStmt ex16 = new AssignStmt("v", new ArithExp('/', new ConstExp(5), new ConstExp(0)));
+        commandList.add(createCommand(ex16));
+
         return commandList;
     }
 
