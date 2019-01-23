@@ -1,0 +1,211 @@
+Id:
+	6
+ExeStack:
+	(v = 10;(new (v, 20);(new (a, 22);print (v))))
+Sym Table:
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	6
+ExeStack:
+	(new (v, 20);(new (a, 22);print (v)))
+	v = 10
+Sym Table:
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	6
+ExeStack:
+	(new (v, 20);(new (a, 22);print (v)))
+	v = 10
+Sym Table:
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	6
+ExeStack:
+	(new (v, 20);(new (a, 22);print (v)))
+Sym Table:
+	v = 10
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	6
+ExeStack:
+	(new (v, 20);(new (a, 22);print (v)))
+Sym Table:
+	v = 10
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	6
+ExeStack:
+	(new (a, 22);print (v))
+	new (v, 20)
+Sym Table:
+	v = 10
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	6
+ExeStack:
+	(new (a, 22);print (v))
+	new (v, 20)
+Sym Table:
+	v = 10
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	6
+ExeStack:
+	(new (a, 22);print (v))
+Sym Table:
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 20
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	6
+ExeStack:
+	(new (a, 22);print (v))
+Sym Table:
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 20
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	6
+ExeStack:
+	print (v)
+	new (a, 22)
+Sym Table:
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 20
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	6
+ExeStack:
+	print (v)
+	new (a, 22)
+Sym Table:
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 20
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	6
+ExeStack:
+	print (v)
+Sym Table:
+	a = 2
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 20
+	Address: 2 Value: 22
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	6
+ExeStack:
+	print (v)
+Sym Table:
+	a = 2
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 20
+	Address: 2 Value: 22
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	6
+ExeStack:
+Sym Table:
+	a = 2
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 20
+	Address: 2 Value: 22
+Semaphore Table: 
+Print output:
+	1
+
+
+

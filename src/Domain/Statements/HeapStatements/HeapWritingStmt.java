@@ -6,12 +6,12 @@ import Domain.PrgState;
 import Domain.Statements.IStmt;
 import Exceptions.HeapWritingException;
 
-public class HeapWrittingStmt implements IStmt {
+public class HeapWritingStmt implements IStmt {
 
     private String var;
     private Exp exp;
 
-    public HeapWrittingStmt(String var, Exp exp) {
+    public HeapWritingStmt(String var, Exp exp) {
         this.var = var;
         this.exp = exp;
     }

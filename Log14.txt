@@ -1,0 +1,27 @@
+Id:
+	14
+ExeStack:
+	newSemaphore(v, 10)
+Sym Table:
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	14
+ExeStack:
+Sym Table:
+	v = 50000
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+	Location: 50000 Value: 
+Print output:
+
+
+
+

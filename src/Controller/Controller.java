@@ -46,7 +46,7 @@ public class Controller {
      * @return list The filtered list
      */
     public List<PrgState> removeCompletedPrg(List<PrgState> inPrgList) {
-        return inPrgList.stream().filter(p -> p.isNotCompleted()).collect(Collectors.toList());
+        return inPrgList.stream().filter(PrgState::isNotCompleted).collect(Collectors.toList());
     }
 
     /**
@@ -62,7 +62,7 @@ public class Controller {
      */
     public void oneStepForAllPrg(List<PrgState> prgList) {
 
-        // Log the currernt state of every ProgramState
+        // Log the current state of every ProgramState
         prgList.forEach(prg -> repo.logPrgStateExec(prg));
 
         // Prepare the list of Callable

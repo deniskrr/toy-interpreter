@@ -14,7 +14,7 @@ public class CompStmt implements IStmt{
 
     @Override
     public String toString(){
-        return "(" + first.toString() + ";" + second.toString()+ ")";
+        return first.toString() + ";" + second.toString();
     }
 
     @Override

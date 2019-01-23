@@ -24,6 +24,8 @@ public class AcquireStmt implements IStmt {
                     if (!entry.getList().contains(state.getId())) {
                         entry.getList().add(state.getId());
                     }
+                } else {
+                    state.getExeStack().push(this);
                 }
             } else {
                 throw new VariableNotFoundException();
@@ -33,5 +35,10 @@ public class AcquireStmt implements IStmt {
         }
 
         return null;
+    }
+
+    @Override
+    public String toString() {
+        return "acquire(" + var +") ";
     }
 }

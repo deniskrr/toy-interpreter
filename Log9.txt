@@ -1,0 +1,396 @@
+Id:
+	9
+ExeStack:
+	(v = 6;(while ( v-4)(print (v);v = v-1);print (v)))
+Sym Table:
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	9
+ExeStack:
+	(while ( v-4)(print (v);v = v-1);print (v))
+	v = 6
+Sym Table:
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	9
+ExeStack:
+	(while ( v-4)(print (v);v = v-1);print (v))
+	v = 6
+Sym Table:
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	9
+ExeStack:
+	(while ( v-4)(print (v);v = v-1);print (v))
+Sym Table:
+	v = 6
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	9
+ExeStack:
+	(while ( v-4)(print (v);v = v-1);print (v))
+Sym Table:
+	v = 6
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	9
+ExeStack:
+	print (v)
+	while ( v-4)(print (v);v = v-1)
+Sym Table:
+	v = 6
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	9
+ExeStack:
+	print (v)
+	while ( v-4)(print (v);v = v-1)
+Sym Table:
+	v = 6
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	9
+ExeStack:
+	print (v)
+	while ( v-4)(print (v);v = v-1)
+	(print (v);v = v-1)
+Sym Table:
+	v = 6
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	9
+ExeStack:
+	print (v)
+	while ( v-4)(print (v);v = v-1)
+	(print (v);v = v-1)
+Sym Table:
+	v = 6
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	9
+ExeStack:
+	print (v)
+	while ( v-4)(print (v);v = v-1)
+	v = v-1
+	print (v)
+Sym Table:
+	v = 6
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	9
+ExeStack:
+	print (v)
+	while ( v-4)(print (v);v = v-1)
+	v = v-1
+	print (v)
+Sym Table:
+	v = 6
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	9
+ExeStack:
+	print (v)
+	while ( v-4)(print (v);v = v-1)
+	v = v-1
+Sym Table:
+	v = 6
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+	6
+
+
+
+Id:
+	9
+ExeStack:
+	print (v)
+	while ( v-4)(print (v);v = v-1)
+	v = v-1
+Sym Table:
+	v = 6
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+	6
+
+
+
+Id:
+	9
+ExeStack:
+	print (v)
+	while ( v-4)(print (v);v = v-1)
+Sym Table:
+	v = 5
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+	6
+
+
+
+Id:
+	9
+ExeStack:
+	print (v)
+	while ( v-4)(print (v);v = v-1)
+Sym Table:
+	v = 5
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+	6
+
+
+
+Id:
+	9
+ExeStack:
+	print (v)
+	while ( v-4)(print (v);v = v-1)
+	(print (v);v = v-1)
+Sym Table:
+	v = 5
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+	6
+
+
+
+Id:
+	9
+ExeStack:
+	print (v)
+	while ( v-4)(print (v);v = v-1)
+	(print (v);v = v-1)
+Sym Table:
+	v = 5
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+	6
+
+
+
+Id:
+	9
+ExeStack:
+	print (v)
+	while ( v-4)(print (v);v = v-1)
+	v = v-1
+	print (v)
+Sym Table:
+	v = 5
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+	6
+
+
+
+Id:
+	9
+ExeStack:
+	print (v)
+	while ( v-4)(print (v);v = v-1)
+	v = v-1
+	print (v)
+Sym Table:
+	v = 5
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+	6
+
+
+
+Id:
+	9
+ExeStack:
+	print (v)
+	while ( v-4)(print (v);v = v-1)
+	v = v-1
+Sym Table:
+	v = 5
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+	6	5
+
+
+
+Id:
+	9
+ExeStack:
+	print (v)
+	while ( v-4)(print (v);v = v-1)
+	v = v-1
+Sym Table:
+	v = 5
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+	6	5
+
+
+
+Id:
+	9
+ExeStack:
+	print (v)
+	while ( v-4)(print (v);v = v-1)
+Sym Table:
+	v = 4
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+	6	5
+
+
+
+Id:
+	9
+ExeStack:
+	print (v)
+	while ( v-4)(print (v);v = v-1)
+Sym Table:
+	v = 4
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+	6	5
+
+
+
+Id:
+	9
+ExeStack:
+	print (v)
+Sym Table:
+	v = 4
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+	6	5
+
+
+
+Id:
+	9
+ExeStack:
+	print (v)
+Sym Table:
+	v = 4
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+	6	5
+
+
+
+Id:
+	9
+ExeStack:
+Sym Table:
+	v = 4
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+	6	5	4
+
+
+

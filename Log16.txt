@@ -1,0 +1,197 @@
+Id:
+	16
+ExeStack:
+	(newSemaphore(cnt, 1);Domain.Statements.SemaphoreStatements.AcquireStmt@4e513120)
+Sym Table:
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	16
+ExeStack:
+	Domain.Statements.SemaphoreStatements.AcquireStmt@4e513120
+	newSemaphore(cnt, 1)
+Sym Table:
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	16
+ExeStack:
+	(newSemaphore(cnt, 1);Domain.Statements.SemaphoreStatements.AcquireStmt@45ee12a7)
+Sym Table:
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	16
+ExeStack:
+	Domain.Statements.SemaphoreStatements.AcquireStmt@45ee12a7
+	newSemaphore(cnt, 1)
+Sym Table:
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	16
+ExeStack:
+	Domain.Statements.SemaphoreStatements.AcquireStmt@45ee12a7
+	newSemaphore(cnt, 1)
+Sym Table:
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	16
+ExeStack:
+	Domain.Statements.SemaphoreStatements.AcquireStmt@45ee12a7
+Sym Table:
+	cnt = 50000
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	16
+ExeStack:
+	Domain.Statements.SemaphoreStatements.AcquireStmt@45ee12a7
+Sym Table:
+	cnt = 50000
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	16
+ExeStack:
+Sym Table:
+	cnt = 50000
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:16, 
+Print output:
+
+
+
+
+Id:
+	16
+ExeStack:
+	(newSemaphore(cnt, 1);acquire(cnt) )
+Sym Table:
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	16
+ExeStack:
+	acquire(cnt) 
+	newSemaphore(cnt, 1)
+Sym Table:
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	16
+ExeStack:
+	acquire(cnt) 
+	newSemaphore(cnt, 1)
+Sym Table:
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	16
+ExeStack:
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	16
+ExeStack:
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	16
+ExeStack:
+Sym Table:
+	cnt = 50000
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:16, 
+Print output:
+
+
+
+

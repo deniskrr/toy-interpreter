@@ -1,0 +1,251 @@
+Id:
+	15
+ExeStack:
+	v = 5/0
+Sym Table:
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	15
+ExeStack:
+Sym Table:
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	15
+ExeStack:
+	v = 5/0
+Sym Table:
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	15
+ExeStack:
+Sym Table:
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	15
+ExeStack:
+	v = 5/0
+Sym Table:
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	15
+ExeStack:
+Sym Table:
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	15
+ExeStack:
+	v = 5/0
+Sym Table:
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	15
+ExeStack:
+Sym Table:
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	15
+ExeStack:
+	v = 5/0
+Sym Table:
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	15
+ExeStack:
+Sym Table:
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	15
+ExeStack:
+	v = 5/0
+Sym Table:
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	15
+ExeStack:
+Sym Table:
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	15
+ExeStack:
+	v = 5/0
+Sym Table:
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	15
+ExeStack:
+Sym Table:
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	15
+ExeStack:
+	v = 5/0
+Sym Table:
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	15
+ExeStack:
+Sym Table:
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	15
+ExeStack:
+	v = 5/0
+Sym Table:
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	15
+ExeStack:
+Sym Table:
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	15
+ExeStack:
+	v = 5/0
+Sym Table:
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	15
+ExeStack:
+	v = 5/0
+Sym Table:
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+

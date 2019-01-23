@@ -1,0 +1,8720 @@
+Id:
+	17
+ExeStack:
+	(new (v, 1);(newSemaphore(v, rH (v) );((acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(v))));((acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt))))))
+Sym Table:
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(newSemaphore(v, rH (v) );((acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(v))));((acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))))
+	new (v, 1)
+Sym Table:
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(newSemaphore(v, rH (v) );((acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(v))));((acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))))
+	new (v, 1)
+Sym Table:
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(newSemaphore(v, rH (v) );((acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(v))));((acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))))
+Sym Table:
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(newSemaphore(v, rH (v) );((acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(v))));((acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))))
+Sym Table:
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	((acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(v))));((acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt))))
+	newSemaphore(v, rH (v) )
+Sym Table:
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	((acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(v))));((acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt))))
+	newSemaphore(v, rH (v) )
+Sym Table:
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	((acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(v))));((acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt))))
+Sym Table:
+	v = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	((acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(v))));((acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt))))
+Sym Table:
+	v = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	((acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))
+	(acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(v))))
+Sym Table:
+	v = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	((acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))
+	(acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(v))))
+Sym Table:
+	v = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	((acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))
+	(wH (v, rH (v) *10);(print (v);release(v)))
+	acquire(cnt) 
+Sym Table:
+	v = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	((acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))
+	(wH (v, rH (v) *10);(print (v);release(v)))
+	acquire(cnt) 
+Sym Table:
+	v = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(new (v, 1);(newSemaphore(cnt, rH (v) );((acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(v))));((acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt))))))
+Sym Table:
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(newSemaphore(cnt, rH (v) );((acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(v))));((acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))))
+	new (v, 1)
+Sym Table:
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(newSemaphore(cnt, rH (v) );((acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(v))));((acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))))
+	new (v, 1)
+Sym Table:
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(newSemaphore(cnt, rH (v) );((acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(v))));((acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))))
+Sym Table:
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(newSemaphore(cnt, rH (v) );((acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(v))));((acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))))
+Sym Table:
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	((acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(v))));((acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt))))
+	newSemaphore(cnt, rH (v) )
+Sym Table:
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	((acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(v))));((acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt))))
+	newSemaphore(cnt, rH (v) )
+Sym Table:
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	((acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(v))));((acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt))))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	((acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(v))));((acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt))))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	((acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))
+	(acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(v))))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	((acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))
+	(acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(v))))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	((acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))
+	(wH (v, rH (v) *10);(print (v);release(v)))
+	acquire(cnt) 
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	((acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))
+	(wH (v, rH (v) *10);(print (v);release(v)))
+	acquire(cnt) 
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	((acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))
+	(wH (v, rH (v) *10);(print (v);release(v)))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:17, 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	((acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))
+	(wH (v, rH (v) *10);(print (v);release(v)))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:17, 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	((acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))
+	(print (v);release(v))
+	wH (v, rH (v) *10)
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:17, 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	((acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))
+	(print (v);release(v))
+	wH (v, rH (v) *10)
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:17, 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	((acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))
+	(print (v);release(v))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:17, 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	((acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))
+	(print (v);release(v))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:17, 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	((acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))
+	release(v)
+	print (v)
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:17, 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	((acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))
+	release(v)
+	print (v)
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:17, 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	((acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))
+	release(v)
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:17, 
+Print output:
+	1
+
+
+
+Id:
+	17
+ExeStack:
+	((acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))
+	release(v)
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:17, 
+Print output:
+	1
+
+
+
+Id:
+	17
+ExeStack:
+	fork (new (v, 1);(newSemaphore(cnt, rH (v) );((acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(v))));(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt))))))
+Sym Table:
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+Sym Table:
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(new (v, 1);(newSemaphore(cnt, rH (v) );((acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(v))));(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt))))))
+Sym Table:
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(new (v, 1);(newSemaphore(cnt, rH (v) );((acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(v))));(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt))))))
+Sym Table:
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(newSemaphore(cnt, rH (v) );((acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(v))));(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))))
+	new (v, 1)
+Sym Table:
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(newSemaphore(cnt, rH (v) );((acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(v))));(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))))
+	new (v, 1)
+Sym Table:
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(newSemaphore(cnt, rH (v) );((acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(v))));(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))))
+Sym Table:
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(newSemaphore(cnt, rH (v) );((acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(v))));(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))))
+Sym Table:
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	((acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(v))));(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt))))
+	newSemaphore(cnt, rH (v) )
+Sym Table:
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	((acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(v))));(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt))))
+	newSemaphore(cnt, rH (v) )
+Sym Table:
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	((acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(v))));(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt))))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	((acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(v))));(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt))))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))
+	(acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(v))))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))
+	(acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(v))))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))
+	(wH (v, rH (v) *10);(print (v);release(v)))
+	acquire(cnt) 
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))
+	(wH (v, rH (v) *10);(print (v);release(v)))
+	acquire(cnt) 
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))
+	(wH (v, rH (v) *10);(print (v);release(v)))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(new (v, 1);(newSemaphore(cnt, rH (v) );(fork (acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(v))));(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt))))))
+Sym Table:
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(newSemaphore(cnt, rH (v) );(fork (acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(v))));(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))))
+	new (v, 1)
+Sym Table:
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(newSemaphore(cnt, rH (v) );(fork (acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(v))));(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))))
+	new (v, 1)
+Sym Table:
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(newSemaphore(cnt, rH (v) );(fork (acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(v))));(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))))
+Sym Table:
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(newSemaphore(cnt, rH (v) );(fork (acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(v))));(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))))
+Sym Table:
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(fork (acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(v))));(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt))))
+	newSemaphore(cnt, rH (v) )
+Sym Table:
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(fork (acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(v))));(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt))))
+	newSemaphore(cnt, rH (v) )
+Sym Table:
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(fork (acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(v))));(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt))))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(fork (acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(v))));(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt))))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))
+	fork (acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(v))))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))
+	fork (acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(v))))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(v))))
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(v))))
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(acquire(cnt) ;release(cnt))
+	fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(wH (v, rH (v) *10);(print (v);release(v)))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(acquire(cnt) ;release(cnt))
+	fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(wH (v, rH (v) *10);(print (v);release(v)))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(acquire(cnt) ;release(cnt))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(wH (v, rH (v) *10);(print (v);release(v)))
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	19
+ExeStack:
+	(acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))))
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(acquire(cnt) ;release(cnt))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(wH (v, rH (v) *10);(print (v);release(v)))
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	19
+ExeStack:
+	(acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))))
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	release(cnt)
+	acquire(cnt) 
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(print (v);release(v))
+	wH (v, rH (v) *10)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	release(cnt)
+	acquire(cnt) 
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(print (v);release(v))
+	wH (v, rH (v) *10)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	release(cnt)
+	acquire(cnt) 
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(print (v);release(v))
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	release(cnt)
+	acquire(cnt) 
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(print (v);release(v))
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	release(cnt)
+	acquire(cnt) 
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	release(v)
+	print (v)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	release(cnt)
+	acquire(cnt) 
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	release(v)
+	print (v)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	release(cnt)
+	acquire(cnt) 
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+	1
+
+
+
+Id:
+	18
+ExeStack:
+	release(v)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+	1
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+	1
+
+
+
+Id:
+	17
+ExeStack:
+	release(cnt)
+	acquire(cnt) 
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+	1
+
+
+
+Id:
+	18
+ExeStack:
+	release(v)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+	1
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+	1
+
+
+
+Id:
+	17
+ExeStack:
+	(new (v, 1);(newSemaphore(cnt, rH (v) );(fork (acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(v))));(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt))))))
+Sym Table:
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(newSemaphore(cnt, rH (v) );(fork (acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(v))));(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))))
+	new (v, 1)
+Sym Table:
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(newSemaphore(cnt, rH (v) );(fork (acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(v))));(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))))
+	new (v, 1)
+Sym Table:
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(newSemaphore(cnt, rH (v) );(fork (acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(v))));(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))))
+Sym Table:
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(newSemaphore(cnt, rH (v) );(fork (acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(v))));(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))))
+Sym Table:
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(fork (acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(v))));(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt))))
+	newSemaphore(cnt, rH (v) )
+Sym Table:
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(fork (acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(v))));(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt))))
+	newSemaphore(cnt, rH (v) )
+Sym Table:
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(fork (acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(v))));(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt))))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(fork (acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(v))));(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt))))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))
+	fork (acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(v))))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))
+	fork (acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(v))))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(v))))
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(v))))
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(acquire(cnt) ;release(cnt))
+	fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(wH (v, rH (v) *10);(print (v);release(v)))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(acquire(cnt) ;release(cnt))
+	fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(wH (v, rH (v) *10);(print (v);release(v)))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(acquire(cnt) ;release(cnt))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(wH (v, rH (v) *10);(print (v);release(v)))
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	19
+ExeStack:
+	(acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))))
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(acquire(cnt) ;release(cnt))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(wH (v, rH (v) *10);(print (v);release(v)))
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	19
+ExeStack:
+	(acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))))
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	release(cnt)
+	acquire(cnt) 
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(print (v);release(v))
+	wH (v, rH (v) *10)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	release(cnt)
+	acquire(cnt) 
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(print (v);release(v))
+	wH (v, rH (v) *10)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	release(cnt)
+	acquire(cnt) 
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(print (v);release(v))
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	release(cnt)
+	acquire(cnt) 
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(print (v);release(v))
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	release(cnt)
+	acquire(cnt) 
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	release(v)
+	print (v)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	release(cnt)
+	acquire(cnt) 
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	release(v)
+	print (v)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	release(cnt)
+	acquire(cnt) 
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+	1
+
+
+
+Id:
+	18
+ExeStack:
+	release(v)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+	1
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+	1
+
+
+
+Id:
+	17
+ExeStack:
+	release(cnt)
+	acquire(cnt) 
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+	1
+
+
+
+Id:
+	18
+ExeStack:
+	release(v)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+	1
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+	1
+
+
+
+Id:
+	17
+ExeStack:
+	(new (v, 1);(newSemaphore(cnt, rH (v) );(fork (acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(cnt))));(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt))))))
+Sym Table:
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(newSemaphore(cnt, rH (v) );(fork (acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(cnt))));(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))))
+	new (v, 1)
+Sym Table:
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(newSemaphore(cnt, rH (v) );(fork (acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(cnt))));(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))))
+	new (v, 1)
+Sym Table:
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(newSemaphore(cnt, rH (v) );(fork (acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(cnt))));(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))))
+Sym Table:
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(newSemaphore(cnt, rH (v) );(fork (acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(cnt))));(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))))
+Sym Table:
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(fork (acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(cnt))));(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt))))
+	newSemaphore(cnt, rH (v) )
+Sym Table:
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(fork (acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(cnt))));(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt))))
+	newSemaphore(cnt, rH (v) )
+Sym Table:
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(fork (acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(cnt))));(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt))))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(fork (acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(cnt))));(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt))))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))
+	fork (acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(cnt))))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))
+	fork (acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(cnt))))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(cnt))))
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(cnt))))
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(acquire(cnt) ;release(cnt))
+	fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(wH (v, rH (v) *10);(print (v);release(cnt)))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(acquire(cnt) ;release(cnt))
+	fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(wH (v, rH (v) *10);(print (v);release(cnt)))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(acquire(cnt) ;release(cnt))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(wH (v, rH (v) *10);(print (v);release(cnt)))
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	19
+ExeStack:
+	(acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))))
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(acquire(cnt) ;release(cnt))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(wH (v, rH (v) *10);(print (v);release(cnt)))
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	19
+ExeStack:
+	(acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))))
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	release(cnt)
+	acquire(cnt) 
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(print (v);release(cnt))
+	wH (v, rH (v) *10)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	release(cnt)
+	acquire(cnt) 
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(print (v);release(cnt))
+	wH (v, rH (v) *10)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	release(cnt)
+	acquire(cnt) 
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(print (v);release(cnt))
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	release(cnt)
+	acquire(cnt) 
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(print (v);release(cnt))
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	release(cnt)
+	acquire(cnt) 
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	release(cnt)
+	print (v)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	release(cnt)
+	acquire(cnt) 
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	release(cnt)
+	print (v)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	release(cnt)
+	acquire(cnt) 
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+	1
+
+
+
+Id:
+	18
+ExeStack:
+	release(cnt)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+	1
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+	1
+
+
+
+Id:
+	17
+ExeStack:
+	release(cnt)
+	acquire(cnt) 
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+	1
+
+
+
+Id:
+	18
+ExeStack:
+	release(cnt)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+	1
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+	1
+
+
+
+Id:
+	17
+ExeStack:
+	(new (v, 1);(newSemaphore(cnt, rH (v) );(fork (acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(cnt))));(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt))))))
+Sym Table:
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(newSemaphore(cnt, rH (v) );(fork (acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(cnt))));(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))))
+	new (v, 1)
+Sym Table:
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(newSemaphore(cnt, rH (v) );(fork (acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(cnt))));(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))))
+	new (v, 1)
+Sym Table:
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(newSemaphore(cnt, rH (v) );(fork (acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(cnt))));(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))))
+Sym Table:
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(newSemaphore(cnt, rH (v) );(fork (acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(cnt))));(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))))
+Sym Table:
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(fork (acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(cnt))));(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt))))
+	newSemaphore(cnt, rH (v) )
+Sym Table:
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(fork (acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(cnt))));(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt))))
+	newSemaphore(cnt, rH (v) )
+Sym Table:
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(fork (acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(cnt))));(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt))))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(fork (acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(cnt))));(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt))))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))
+	fork (acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(cnt))))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))
+	fork (acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(cnt))))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(cnt))))
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(cnt))))
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(acquire(cnt) ;release(cnt))
+	fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(wH (v, rH (v) *10);(print (v);release(cnt)))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(acquire(cnt) ;release(cnt))
+	fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(wH (v, rH (v) *10);(print (v);release(cnt)))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(acquire(cnt) ;release(cnt))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(wH (v, rH (v) *10);(print (v);release(cnt)))
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	19
+ExeStack:
+	(acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))))
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(acquire(cnt) ;release(cnt))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(wH (v, rH (v) *10);(print (v);release(cnt)))
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	19
+ExeStack:
+	(acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))))
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	release(cnt)
+	acquire(cnt) 
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(print (v);release(cnt))
+	wH (v, rH (v) *10)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	release(cnt)
+	acquire(cnt) 
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(print (v);release(cnt))
+	wH (v, rH (v) *10)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	release(cnt)
+	acquire(cnt) 
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(print (v);release(cnt))
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	release(cnt)
+	acquire(cnt) 
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(print (v);release(cnt))
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	release(cnt)
+	acquire(cnt) 
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	release(cnt)
+	print (v)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	release(cnt)
+	acquire(cnt) 
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	release(cnt)
+	print (v)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	release(cnt)
+	acquire(cnt) 
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+	1
+
+
+
+Id:
+	18
+ExeStack:
+	release(cnt)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+	1
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+	1
+
+
+
+Id:
+	17
+ExeStack:
+	release(cnt)
+	acquire(cnt) 
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+	1
+
+
+
+Id:
+	18
+ExeStack:
+	release(cnt)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+	1
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+	1
+
+
+
+Id:
+	17
+ExeStack:
+	release(cnt)
+	acquire(cnt) 
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+	1
+
+
+
+Id:
+	18
+ExeStack:
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+	1
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+	1
+
+
+
+Id:
+	17
+ExeStack:
+	release(cnt)
+	acquire(cnt) 
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+	1
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+	1
+
+
+
+Id:
+	17
+ExeStack:
+	release(cnt)
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:17, 19, 
+Print output:
+	1
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:17, 19, 
+Print output:
+	1
+
+
+
+Id:
+	17
+ExeStack:
+	release(cnt)
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:17, 19, 
+Print output:
+	1
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:17, 19, 
+Print output:
+	1
+
+
+
+Id:
+	17
+ExeStack:
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:19, 
+Print output:
+	1
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))
+	wH (v, rH (v) *10)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:19, 
+Print output:
+	1
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))
+	wH (v, rH (v) *10)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:19, 
+Print output:
+	1
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 100
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:19, 
+Print output:
+	1
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 100
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:19, 
+Print output:
+	1
+
+
+
+Id:
+	19
+ExeStack:
+	(print (rH (v) );release(cnt))
+	wH (v, rH (v) *2)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 100
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:19, 
+Print output:
+	1
+
+
+
+Id:
+	19
+ExeStack:
+	(print (rH (v) );release(cnt))
+	wH (v, rH (v) *2)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 100
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:19, 
+Print output:
+	1
+
+
+
+Id:
+	19
+ExeStack:
+	(print (rH (v) );release(cnt))
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 200
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:19, 
+Print output:
+	1
+
+
+
+Id:
+	19
+ExeStack:
+	(print (rH (v) );release(cnt))
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 200
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:19, 
+Print output:
+	1
+
+
+
+Id:
+	19
+ExeStack:
+	release(cnt)
+	print (rH (v) )
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 200
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:19, 
+Print output:
+	1
+
+
+
+Id:
+	19
+ExeStack:
+	release(cnt)
+	print (rH (v) )
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 200
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:19, 
+Print output:
+	1
+
+
+
+Id:
+	19
+ExeStack:
+	release(cnt)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 200
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:19, 
+Print output:
+	1	200
+
+
+
+Id:
+	19
+ExeStack:
+	release(cnt)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 200
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:19, 
+Print output:
+	1	200
+
+
+
+Id:
+	19
+ExeStack:
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 200
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+	1	200
+
+
+
+Id:
+	17
+ExeStack:
+	(new (v, 1);(newSemaphore(cnt, rH (v) );(fork (acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(cnt))));(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt))))))
+Sym Table:
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(newSemaphore(cnt, rH (v) );(fork (acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(cnt))));(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))))
+	new (v, 1)
+Sym Table:
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(newSemaphore(cnt, rH (v) );(fork (acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(cnt))));(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))))
+	new (v, 1)
+Sym Table:
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(newSemaphore(cnt, rH (v) );(fork (acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(cnt))));(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))))
+Sym Table:
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(newSemaphore(cnt, rH (v) );(fork (acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(cnt))));(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))))
+Sym Table:
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(fork (acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(cnt))));(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt))))
+	newSemaphore(cnt, rH (v) )
+Sym Table:
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(fork (acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(cnt))));(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt))))
+	newSemaphore(cnt, rH (v) )
+Sym Table:
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(fork (acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(cnt))));(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt))))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(fork (acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(cnt))));(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt))))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))
+	fork (acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(cnt))))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))
+	fork (acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(cnt))))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(cnt))))
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;release(cnt)))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(acquire(cnt) ;(wH (v, rH (v) *10);(print (v);release(cnt))))
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(acquire(cnt) ;release(cnt))
+	fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(wH (v, rH (v) *10);(print (v);release(cnt)))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(acquire(cnt) ;release(cnt))
+	fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(wH (v, rH (v) *10);(print (v);release(cnt)))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(acquire(cnt) ;release(cnt))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(wH (v, rH (v) *10);(print (v);release(cnt)))
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	19
+ExeStack:
+	(acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))))
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(acquire(cnt) ;release(cnt))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(wH (v, rH (v) *10);(print (v);release(cnt)))
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	19
+ExeStack:
+	(acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))))
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	release(cnt)
+	acquire(cnt) 
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(print (v);release(cnt))
+	wH (v, rH (v) *10)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	release(cnt)
+	acquire(cnt) 
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(print (v);release(cnt))
+	wH (v, rH (v) *10)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	release(cnt)
+	acquire(cnt) 
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(print (v);release(cnt))
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	release(cnt)
+	acquire(cnt) 
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(print (v);release(cnt))
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	release(cnt)
+	acquire(cnt) 
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	release(cnt)
+	print (v)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	release(cnt)
+	acquire(cnt) 
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	release(cnt)
+	print (v)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	release(cnt)
+	acquire(cnt) 
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+	1
+
+
+
+Id:
+	18
+ExeStack:
+	release(cnt)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+	1
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+	1
+
+
+
+Id:
+	17
+ExeStack:
+	release(cnt)
+	acquire(cnt) 
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+	1
+
+
+
+Id:
+	18
+ExeStack:
+	release(cnt)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+	1
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+	1
+
+
+
+Id:
+	17
+ExeStack:
+	release(cnt)
+	acquire(cnt) 
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+	1
+
+
+
+Id:
+	18
+ExeStack:
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+	1
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+	1
+
+
+
+Id:
+	17
+ExeStack:
+	release(cnt)
+	acquire(cnt) 
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+	1
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+	1
+
+
+
+Id:
+	17
+ExeStack:
+	release(cnt)
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:17, 
+Print output:
+	1
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:17, 
+Print output:
+	1
+
+
+
+Id:
+	17
+ExeStack:
+	release(cnt)
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:17, 
+Print output:
+	1
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:17, 
+Print output:
+	1
+
+
+
+Id:
+	17
+ExeStack:
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:19, 
+Print output:
+	1
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:19, 
+Print output:
+	1
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:19, 
+Print output:
+	1
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))
+	wH (v, rH (v) *10)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:19, 
+Print output:
+	1
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))
+	wH (v, rH (v) *10)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:19, 
+Print output:
+	1
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 100
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:19, 
+Print output:
+	1
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 100
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:19, 
+Print output:
+	1
+
+
+
+Id:
+	19
+ExeStack:
+	(print (rH (v) );release(cnt))
+	wH (v, rH (v) *2)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 100
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:19, 
+Print output:
+	1
+
+
+
+Id:
+	19
+ExeStack:
+	(print (rH (v) );release(cnt))
+	wH (v, rH (v) *2)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 100
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:19, 
+Print output:
+	1
+
+
+
+Id:
+	19
+ExeStack:
+	(print (rH (v) );release(cnt))
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 200
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:19, 
+Print output:
+	1
+
+
+
+Id:
+	19
+ExeStack:
+	(print (rH (v) );release(cnt))
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 200
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:19, 
+Print output:
+	1
+
+
+
+Id:
+	19
+ExeStack:
+	release(cnt)
+	print (rH (v) )
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 200
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:19, 
+Print output:
+	1
+
+
+
+Id:
+	19
+ExeStack:
+	release(cnt)
+	print (rH (v) )
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 200
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:19, 
+Print output:
+	1
+
+
+
+Id:
+	19
+ExeStack:
+	release(cnt)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 200
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:19, 
+Print output:
+	1	200
+
+
+
+Id:
+	19
+ExeStack:
+	release(cnt)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 200
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:19, 
+Print output:
+	1	200
+
+
+
+Id:
+	19
+ExeStack:
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 200
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+	1	200
+
+
+
+Id:
+	17
+ExeStack:
+	(new (v, 1);(newSemaphore(cnt, rH (v) );(fork (acquire(cnt) ;(wH (v, rH (v) *10);(print (rH (v) );release(cnt))));(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;(print (rH (v) -1);release(cnt)))))))
+Sym Table:
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(newSemaphore(cnt, rH (v) );(fork (acquire(cnt) ;(wH (v, rH (v) *10);(print (rH (v) );release(cnt))));(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;(print (rH (v) -1);release(cnt))))))
+	new (v, 1)
+Sym Table:
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(newSemaphore(cnt, rH (v) );(fork (acquire(cnt) ;(wH (v, rH (v) *10);(print (rH (v) );release(cnt))));(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;(print (rH (v) -1);release(cnt))))))
+	new (v, 1)
+Sym Table:
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(newSemaphore(cnt, rH (v) );(fork (acquire(cnt) ;(wH (v, rH (v) *10);(print (rH (v) );release(cnt))));(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;(print (rH (v) -1);release(cnt))))))
+Sym Table:
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(newSemaphore(cnt, rH (v) );(fork (acquire(cnt) ;(wH (v, rH (v) *10);(print (rH (v) );release(cnt))));(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;(print (rH (v) -1);release(cnt))))))
+Sym Table:
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(fork (acquire(cnt) ;(wH (v, rH (v) *10);(print (rH (v) );release(cnt))));(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;(print (rH (v) -1);release(cnt)))))
+	newSemaphore(cnt, rH (v) )
+Sym Table:
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(fork (acquire(cnt) ;(wH (v, rH (v) *10);(print (rH (v) );release(cnt))));(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;(print (rH (v) -1);release(cnt)))))
+	newSemaphore(cnt, rH (v) )
+Sym Table:
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(fork (acquire(cnt) ;(wH (v, rH (v) *10);(print (rH (v) );release(cnt))));(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;(print (rH (v) -1);release(cnt)))))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(fork (acquire(cnt) ;(wH (v, rH (v) *10);(print (rH (v) );release(cnt))));(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;(print (rH (v) -1);release(cnt)))))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;(print (rH (v) -1);release(cnt))))
+	fork (acquire(cnt) ;(wH (v, rH (v) *10);(print (rH (v) );release(cnt))))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;(print (rH (v) -1);release(cnt))))
+	fork (acquire(cnt) ;(wH (v, rH (v) *10);(print (rH (v) );release(cnt))))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;(print (rH (v) -1);release(cnt))))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(acquire(cnt) ;(wH (v, rH (v) *10);(print (rH (v) );release(cnt))))
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))));(acquire(cnt) ;(print (rH (v) -1);release(cnt))))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(acquire(cnt) ;(wH (v, rH (v) *10);(print (rH (v) );release(cnt))))
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(acquire(cnt) ;(print (rH (v) -1);release(cnt)))
+	fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(wH (v, rH (v) *10);(print (rH (v) );release(cnt)))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(acquire(cnt) ;(print (rH (v) -1);release(cnt)))
+	fork (acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(wH (v, rH (v) *10);(print (rH (v) );release(cnt)))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(acquire(cnt) ;(print (rH (v) -1);release(cnt)))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(wH (v, rH (v) *10);(print (rH (v) );release(cnt)))
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	19
+ExeStack:
+	(acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))))
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(acquire(cnt) ;(print (rH (v) -1);release(cnt)))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(wH (v, rH (v) *10);(print (rH (v) );release(cnt)))
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	19
+ExeStack:
+	(acquire(cnt) ;(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))))
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(print (rH (v) -1);release(cnt))
+	acquire(cnt) 
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(print (rH (v) );release(cnt))
+	wH (v, rH (v) *10)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(print (rH (v) -1);release(cnt))
+	acquire(cnt) 
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(print (rH (v) );release(cnt))
+	wH (v, rH (v) *10)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(print (rH (v) -1);release(cnt))
+	acquire(cnt) 
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(print (rH (v) );release(cnt))
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(print (rH (v) -1);release(cnt))
+	acquire(cnt) 
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	(print (rH (v) );release(cnt))
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(print (rH (v) -1);release(cnt))
+	acquire(cnt) 
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	release(cnt)
+	print (rH (v) )
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(print (rH (v) -1);release(cnt))
+	acquire(cnt) 
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	release(cnt)
+	print (rH (v) )
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	(print (rH (v) -1);release(cnt))
+	acquire(cnt) 
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+	10
+
+
+
+Id:
+	18
+ExeStack:
+	release(cnt)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+	10
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+	10
+
+
+
+Id:
+	17
+ExeStack:
+	(print (rH (v) -1);release(cnt))
+	acquire(cnt) 
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+	10
+
+
+
+Id:
+	18
+ExeStack:
+	release(cnt)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+	10
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+	10
+
+
+
+Id:
+	17
+ExeStack:
+	(print (rH (v) -1);release(cnt))
+	acquire(cnt) 
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+	10
+
+
+
+Id:
+	18
+ExeStack:
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+	10
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+	10
+
+
+
+Id:
+	17
+ExeStack:
+	(print (rH (v) -1);release(cnt))
+	acquire(cnt) 
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+	10
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+	10
+
+
+
+Id:
+	17
+ExeStack:
+	(print (rH (v) -1);release(cnt))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:17, 
+Print output:
+	10
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:17, 
+Print output:
+	10
+
+
+
+Id:
+	17
+ExeStack:
+	(print (rH (v) -1);release(cnt))
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:17, 
+Print output:
+	10
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:17, 
+Print output:
+	10
+
+
+
+Id:
+	17
+ExeStack:
+	release(cnt)
+	print (rH (v) -1)
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:17, 
+Print output:
+	10
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:17, 
+Print output:
+	10
+
+
+
+Id:
+	17
+ExeStack:
+	release(cnt)
+	print (rH (v) -1)
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:17, 
+Print output:
+	10
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:17, 
+Print output:
+	10
+
+
+
+Id:
+	17
+ExeStack:
+	release(cnt)
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:17, 
+Print output:
+	10	9
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:17, 
+Print output:
+	10	9
+
+
+
+Id:
+	17
+ExeStack:
+	release(cnt)
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:17, 
+Print output:
+	10	9
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:17, 
+Print output:
+	10	9
+
+
+
+Id:
+	17
+ExeStack:
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+	10	9
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+	10	9
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+	10	9
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:19, 
+Print output:
+	10	9
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *10);(wH (v, rH (v) *2);(print (rH (v) );release(cnt))))
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:19, 
+Print output:
+	10	9
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))
+	wH (v, rH (v) *10)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:19, 
+Print output:
+	10	9
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))
+	wH (v, rH (v) *10)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:19, 
+Print output:
+	10	9
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 100
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:19, 
+Print output:
+	10	9
+
+
+
+Id:
+	19
+ExeStack:
+	(wH (v, rH (v) *2);(print (rH (v) );release(cnt)))
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 100
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:19, 
+Print output:
+	10	9
+
+
+
+Id:
+	19
+ExeStack:
+	(print (rH (v) );release(cnt))
+	wH (v, rH (v) *2)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 100
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:19, 
+Print output:
+	10	9
+
+
+
+Id:
+	19
+ExeStack:
+	(print (rH (v) );release(cnt))
+	wH (v, rH (v) *2)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 100
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:19, 
+Print output:
+	10	9
+
+
+
+Id:
+	19
+ExeStack:
+	(print (rH (v) );release(cnt))
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 200
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:19, 
+Print output:
+	10	9
+
+
+
+Id:
+	19
+ExeStack:
+	(print (rH (v) );release(cnt))
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 200
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:19, 
+Print output:
+	10	9
+
+
+
+Id:
+	19
+ExeStack:
+	release(cnt)
+	print (rH (v) )
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 200
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:19, 
+Print output:
+	10	9
+
+
+
+Id:
+	19
+ExeStack:
+	release(cnt)
+	print (rH (v) )
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 200
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:19, 
+Print output:
+	10	9
+
+
+
+Id:
+	19
+ExeStack:
+	release(cnt)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 200
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:19, 
+Print output:
+	10	9	200
+
+
+
+Id:
+	19
+ExeStack:
+	release(cnt)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 200
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:19, 
+Print output:
+	10	9	200
+
+
+
+Id:
+	19
+ExeStack:
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 200
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+	10	9	200
+
+
+
+Id:
+	17
+ExeStack:
+	new (v, 1);newSemaphore(cnt, rH (v) );fork acquire(cnt) ;wH (v, rH (v) *10);print (rH (v) );release(cnt);fork acquire(cnt) ;wH (v, rH (v) *10);wH (v, rH (v) *2);print (rH (v) );release(cnt);acquire(cnt) ;print (rH (v) -1);release(cnt)
+Sym Table:
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	newSemaphore(cnt, rH (v) );fork acquire(cnt) ;wH (v, rH (v) *10);print (rH (v) );release(cnt);fork acquire(cnt) ;wH (v, rH (v) *10);wH (v, rH (v) *2);print (rH (v) );release(cnt);acquire(cnt) ;print (rH (v) -1);release(cnt)
+	new (v, 1)
+Sym Table:
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	newSemaphore(cnt, rH (v) );fork acquire(cnt) ;wH (v, rH (v) *10);print (rH (v) );release(cnt);fork acquire(cnt) ;wH (v, rH (v) *10);wH (v, rH (v) *2);print (rH (v) );release(cnt);acquire(cnt) ;print (rH (v) -1);release(cnt)
+	new (v, 1)
+Sym Table:
+File Table:
+HeapTable Table: 
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	newSemaphore(cnt, rH (v) );fork acquire(cnt) ;wH (v, rH (v) *10);print (rH (v) );release(cnt);fork acquire(cnt) ;wH (v, rH (v) *10);wH (v, rH (v) *2);print (rH (v) );release(cnt);acquire(cnt) ;print (rH (v) -1);release(cnt)
+Sym Table:
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	newSemaphore(cnt, rH (v) );fork acquire(cnt) ;wH (v, rH (v) *10);print (rH (v) );release(cnt);fork acquire(cnt) ;wH (v, rH (v) *10);wH (v, rH (v) *2);print (rH (v) );release(cnt);acquire(cnt) ;print (rH (v) -1);release(cnt)
+Sym Table:
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	fork acquire(cnt) ;wH (v, rH (v) *10);print (rH (v) );release(cnt);fork acquire(cnt) ;wH (v, rH (v) *10);wH (v, rH (v) *2);print (rH (v) );release(cnt);acquire(cnt) ;print (rH (v) -1);release(cnt)
+	newSemaphore(cnt, rH (v) )
+Sym Table:
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	fork acquire(cnt) ;wH (v, rH (v) *10);print (rH (v) );release(cnt);fork acquire(cnt) ;wH (v, rH (v) *10);wH (v, rH (v) *2);print (rH (v) );release(cnt);acquire(cnt) ;print (rH (v) -1);release(cnt)
+	newSemaphore(cnt, rH (v) )
+Sym Table:
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	fork acquire(cnt) ;wH (v, rH (v) *10);print (rH (v) );release(cnt);fork acquire(cnt) ;wH (v, rH (v) *10);wH (v, rH (v) *2);print (rH (v) );release(cnt);acquire(cnt) ;print (rH (v) -1);release(cnt)
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	fork acquire(cnt) ;wH (v, rH (v) *10);print (rH (v) );release(cnt);fork acquire(cnt) ;wH (v, rH (v) *10);wH (v, rH (v) *2);print (rH (v) );release(cnt);acquire(cnt) ;print (rH (v) -1);release(cnt)
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	fork acquire(cnt) ;wH (v, rH (v) *10);wH (v, rH (v) *2);print (rH (v) );release(cnt);acquire(cnt) ;print (rH (v) -1);release(cnt)
+	fork acquire(cnt) ;wH (v, rH (v) *10);print (rH (v) );release(cnt)
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	fork acquire(cnt) ;wH (v, rH (v) *10);wH (v, rH (v) *2);print (rH (v) );release(cnt);acquire(cnt) ;print (rH (v) -1);release(cnt)
+	fork acquire(cnt) ;wH (v, rH (v) *10);print (rH (v) );release(cnt)
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	fork acquire(cnt) ;wH (v, rH (v) *10);wH (v, rH (v) *2);print (rH (v) );release(cnt);acquire(cnt) ;print (rH (v) -1);release(cnt)
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	acquire(cnt) ;wH (v, rH (v) *10);print (rH (v) );release(cnt)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	fork acquire(cnt) ;wH (v, rH (v) *10);wH (v, rH (v) *2);print (rH (v) );release(cnt);acquire(cnt) ;print (rH (v) -1);release(cnt)
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	acquire(cnt) ;wH (v, rH (v) *10);print (rH (v) );release(cnt)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	acquire(cnt) ;print (rH (v) -1);release(cnt)
+	fork acquire(cnt) ;wH (v, rH (v) *10);wH (v, rH (v) *2);print (rH (v) );release(cnt)
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	wH (v, rH (v) *10);print (rH (v) );release(cnt)
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	acquire(cnt) ;print (rH (v) -1);release(cnt)
+	fork acquire(cnt) ;wH (v, rH (v) *10);wH (v, rH (v) *2);print (rH (v) );release(cnt)
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	wH (v, rH (v) *10);print (rH (v) );release(cnt)
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	acquire(cnt) ;print (rH (v) -1);release(cnt)
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	wH (v, rH (v) *10);print (rH (v) );release(cnt)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	19
+ExeStack:
+	acquire(cnt) ;wH (v, rH (v) *10);wH (v, rH (v) *2);print (rH (v) );release(cnt)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	acquire(cnt) ;print (rH (v) -1);release(cnt)
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	wH (v, rH (v) *10);print (rH (v) );release(cnt)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	19
+ExeStack:
+	acquire(cnt) ;wH (v, rH (v) *10);wH (v, rH (v) *2);print (rH (v) );release(cnt)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	print (rH (v) -1);release(cnt)
+	acquire(cnt) 
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	print (rH (v) );release(cnt)
+	wH (v, rH (v) *10)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	19
+ExeStack:
+	wH (v, rH (v) *10);wH (v, rH (v) *2);print (rH (v) );release(cnt)
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	print (rH (v) -1);release(cnt)
+	acquire(cnt) 
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	print (rH (v) );release(cnt)
+	wH (v, rH (v) *10)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	19
+ExeStack:
+	wH (v, rH (v) *10);wH (v, rH (v) *2);print (rH (v) );release(cnt)
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 1
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	print (rH (v) -1);release(cnt)
+	acquire(cnt) 
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	print (rH (v) );release(cnt)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	19
+ExeStack:
+	wH (v, rH (v) *10);wH (v, rH (v) *2);print (rH (v) );release(cnt)
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	print (rH (v) -1);release(cnt)
+	acquire(cnt) 
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	print (rH (v) );release(cnt)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	19
+ExeStack:
+	wH (v, rH (v) *10);wH (v, rH (v) *2);print (rH (v) );release(cnt)
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	print (rH (v) -1);release(cnt)
+	acquire(cnt) 
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	release(cnt)
+	print (rH (v) )
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	19
+ExeStack:
+	wH (v, rH (v) *10);wH (v, rH (v) *2);print (rH (v) );release(cnt)
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	print (rH (v) -1);release(cnt)
+	acquire(cnt) 
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	18
+ExeStack:
+	release(cnt)
+	print (rH (v) )
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	19
+ExeStack:
+	wH (v, rH (v) *10);wH (v, rH (v) *2);print (rH (v) );release(cnt)
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+
+
+
+
+Id:
+	17
+ExeStack:
+	print (rH (v) -1);release(cnt)
+	acquire(cnt) 
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+	10
+
+
+
+Id:
+	18
+ExeStack:
+	release(cnt)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+	10
+
+
+
+Id:
+	19
+ExeStack:
+	wH (v, rH (v) *10);wH (v, rH (v) *2);print (rH (v) );release(cnt)
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+	10
+
+
+
+Id:
+	17
+ExeStack:
+	print (rH (v) -1);release(cnt)
+	acquire(cnt) 
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+	10
+
+
+
+Id:
+	18
+ExeStack:
+	release(cnt)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+	10
+
+
+
+Id:
+	19
+ExeStack:
+	wH (v, rH (v) *10);wH (v, rH (v) *2);print (rH (v) );release(cnt)
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:18, 
+Print output:
+	10
+
+
+
+Id:
+	17
+ExeStack:
+	print (rH (v) -1);release(cnt)
+	acquire(cnt) 
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+	10
+
+
+
+Id:
+	18
+ExeStack:
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+	10
+
+
+
+Id:
+	19
+ExeStack:
+	wH (v, rH (v) *10);wH (v, rH (v) *2);print (rH (v) );release(cnt)
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+	10
+
+
+
+Id:
+	17
+ExeStack:
+	print (rH (v) -1);release(cnt)
+	acquire(cnt) 
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+	10
+
+
+
+Id:
+	19
+ExeStack:
+	wH (v, rH (v) *10);wH (v, rH (v) *2);print (rH (v) );release(cnt)
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:
+Print output:
+	10
+
+
+
+Id:
+	17
+ExeStack:
+	print (rH (v) -1);release(cnt)
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:17, 
+Print output:
+	10
+
+
+
+Id:
+	19
+ExeStack:
+	wH (v, rH (v) *10);wH (v, rH (v) *2);print (rH (v) );release(cnt)
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:17, 
+Print output:
+	10
+
+
+
+Id:
+	17
+ExeStack:
+	print (rH (v) -1);release(cnt)
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:17, 
+Print output:
+	10
+
+
+
+Id:
+	19
+ExeStack:
+	wH (v, rH (v) *10);wH (v, rH (v) *2);print (rH (v) );release(cnt)
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:17, 
+Print output:
+	10
+
+
+
+Id:
+	17
+ExeStack:
+	release(cnt)
+	print (rH (v) -1)
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:17, 
+Print output:
+	10
+
+
+
+Id:
+	19
+ExeStack:
+	wH (v, rH (v) *10);wH (v, rH (v) *2);print (rH (v) );release(cnt)
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:17, 
+Print output:
+	10
+
+
+
+Id:
+	17
+ExeStack:
+	release(cnt)
+	print (rH (v) -1)
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:17, 
+Print output:
+	10
+
+
+
+Id:
+	19
+ExeStack:
+	wH (v, rH (v) *10);wH (v, rH (v) *2);print (rH (v) );release(cnt)
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:17, 
+Print output:
+	10
+
+
+
+Id:
+	17
+ExeStack:
+	release(cnt)
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:17, 
+Print output:
+	10	9
+
+
+
+Id:
+	19
+ExeStack:
+	wH (v, rH (v) *10);wH (v, rH (v) *2);print (rH (v) );release(cnt)
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:17, 
+Print output:
+	10	9
+
+
+
+Id:
+	17
+ExeStack:
+	release(cnt)
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:17, 
+Print output:
+	10	9
+
+
+
+Id:
+	19
+ExeStack:
+	wH (v, rH (v) *10);wH (v, rH (v) *2);print (rH (v) );release(cnt)
+	acquire(cnt) 
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:17, 
+Print output:
+	10	9
+
+
+
+Id:
+	17
+ExeStack:
+Sym Table:
+	v = 1
+	cnt = 50000
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:19, 
+Print output:
+	10	9
+
+
+
+Id:
+	19
+ExeStack:
+	wH (v, rH (v) *10);wH (v, rH (v) *2);print (rH (v) );release(cnt)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:19, 
+Print output:
+	10	9
+
+
+
+Id:
+	19
+ExeStack:
+	wH (v, rH (v) *10);wH (v, rH (v) *2);print (rH (v) );release(cnt)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:19, 
+Print output:
+	10	9
+
+
+
+Id:
+	19
+ExeStack:
+	wH (v, rH (v) *2);print (rH (v) );release(cnt)
+	wH (v, rH (v) *10)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:19, 
+Print output:
+	10	9
+
+
+
+Id:
+	19
+ExeStack:
+	wH (v, rH (v) *2);print (rH (v) );release(cnt)
+	wH (v, rH (v) *10)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 10
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:19, 
+Print output:
+	10	9
+
+
+
+Id:
+	19
+ExeStack:
+	wH (v, rH (v) *2);print (rH (v) );release(cnt)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 100
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:19, 
+Print output:
+	10	9
+
+
+
+Id:
+	19
+ExeStack:
+	wH (v, rH (v) *2);print (rH (v) );release(cnt)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 100
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:19, 
+Print output:
+	10	9
+
+
+
+Id:
+	19
+ExeStack:
+	print (rH (v) );release(cnt)
+	wH (v, rH (v) *2)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 100
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:19, 
+Print output:
+	10	9
+
+
+
+Id:
+	19
+ExeStack:
+	print (rH (v) );release(cnt)
+	wH (v, rH (v) *2)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 100
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:19, 
+Print output:
+	10	9
+
+
+
+Id:
+	19
+ExeStack:
+	print (rH (v) );release(cnt)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 200
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:19, 
+Print output:
+	10	9
+
+
+
+Id:
+	19
+ExeStack:
+	print (rH (v) );release(cnt)
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 200
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:19, 
+Print output:
+	10	9
+
+
+
+Id:
+	19
+ExeStack:
+	release(cnt)
+	print (rH (v) )
+Sym Table:
+	cnt = 50000
+	v = 1
+File Table:
+HeapTable Table: 
+	Address: 1 Value: 200
+Semaphore Table: 
+	Location: 50000 Value: Counter: 1 Programs:19, 
+Print output:
+	10	9
+
+
+
