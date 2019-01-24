@@ -11,10 +11,6 @@ public class MyStack<T> implements IStack<T> {
         stack = new Stack<T>();
     }
 
-    public Stack<T> getStack(){
-        return stack;
-    }
-
     @Override
     public void push(T element){
         stack.push(element);
@@ -23,6 +19,19 @@ public class MyStack<T> implements IStack<T> {
     @Override
     public T pop(){
         return stack.pop();
+    }
+
+    @Override
+    public T peek() {
+        if (stack.size() > 0) {
+            return stack.peek();
+        }
+        return null;
+    }
+
+    @Override
+    public Stack<T> getStack() {
+        return stack;
     }
 
     @Override
@@ -39,7 +48,6 @@ public class MyStack<T> implements IStack<T> {
             str += "\t" + element.toString() + "\n";
 
         return str;
-
     }
 
 }

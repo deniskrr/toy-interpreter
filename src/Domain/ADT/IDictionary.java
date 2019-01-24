@@ -72,7 +72,7 @@ public interface IDictionary<K,V> {
      * Get the dictionary
      * @return HashMap
      */
-    HashMap<K,V> getDictionary();
+    HashMap<K, V> getProcTable();
 
     IDictionary<K, V> clone();
 

@@ -8,6 +8,7 @@ import Domain.Expression.ConstExp;
 import Domain.Expression.HeapReadingExp;
 import Domain.Expression.VarExp;
 import Domain.PrgState;
+import Domain.Procedure;
 import Domain.Statements.*;
 import Domain.Statements.FileStatements.CloseFile;
 import Domain.Statements.FileStatements.OpenFile;
@@ -40,6 +41,18 @@ public class AppMain {
         TextRepository repo = new TextRepository("Log" + logger + ".txt");
         Controller ctrl = new Controller(repo);
         PrgState prgState = new PrgState(mainStatement);
+        repo.addProgram(prgState);
+
+        return new RunCommand(String.valueOf(logger++), mainStatement.toString(), ctrl);
+    }
+
+    private static Command createCommand(IStmt mainStatement, List<Procedure> procedures) {
+        TextRepository repo = new TextRepository("Log" + logger + ".txt");
+        Controller ctrl = new Controller(repo);
+        PrgState prgState = new PrgState(mainStatement);
+        for (Procedure procedure : procedures) {
+            prgState.getProcTable().add(procedure.getName(), procedure.getEntry());
+        }
         repo.addProgram(prgState);
 
         return new RunCommand(String.valueOf(logger++), mainStatement.toString(), ctrl);
@@ -176,6 +189,10 @@ public class AppMain {
                                         new PrintStmt(new VarExp("v"))))),
                         new CompStmt(new SleepStmt(10), new PrintStmt(new ArithExp('*', new VarExp("v"), new ConstExp(10))))));
         commandList.add(createCommand(testb));
+
+        IStmt sum = new CompStmt(new AssignStmt("v", new ArithExp('+', new VarExp("a"), new VarExp("b"))),
+                new PrintStmt(new VarExp("v")));
+//        Procedure sum = new Procedure("sum", new ProcedureEntry(Arrays.asList("a", "b"),))
 
         return commandList;
     }

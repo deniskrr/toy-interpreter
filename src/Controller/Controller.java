@@ -137,7 +137,7 @@ public class Controller {
 
         // Close the files
         List<PrgState> tmpList = repo.getProgramStates();
-        tmpList.forEach(program -> program.getFileTable().getDictionary().entrySet()
+        tmpList.forEach(program -> program.getFileTable().getProcTable().entrySet()
                 .stream()
                 .map(e -> e.getValue()).map(e -> e.getReader())
                 .forEach(e -> {
@@ -153,7 +153,7 @@ public class Controller {
     }
 
     private Set conservativeGarbageCollector(Collection<Integer> symTableValues, IDictionary<Integer, Integer> heap) {
-        return heap.getDictionary().entrySet()
+        return heap.getProcTable().entrySet()
                 .stream()
                 .filter(e -> symTableValues.contains(e.getKey()))
                 .collect(Collectors.toSet());

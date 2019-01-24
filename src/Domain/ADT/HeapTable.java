@@ -16,7 +16,7 @@ public class HeapTable<K, V> implements IDictionary<K, V> {
     }
 
     @Override
-    public HashMap<K,V> getDictionary(){
+    public HashMap<K, V> getProcTable() {
         return dictionary;
     }
 

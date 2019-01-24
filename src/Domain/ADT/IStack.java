@@ -1,5 +1,7 @@
 package Domain.ADT;
 
+import java.util.Stack;
+
 public interface IStack<T> {
 
     /**
@@ -15,6 +17,7 @@ public interface IStack<T> {
      */
     T pop();
 
+    T peek();
 
     /**
      * Check if the stack is empty
@@ -23,6 +26,7 @@ public interface IStack<T> {
      */
     boolean isEmpty();
 
+    Stack<T> getStack();
 
     /**
      * String method to get all the elements from the stack.

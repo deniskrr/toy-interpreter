@@ -75,17 +75,17 @@ public class GUIProgramController {
 
     public void refresh(PrgState currentProgram) {
         List<Map.Entry<Integer, Integer>> heapEntries = new ArrayList<>();
-        if (currentProgram.getHeap().getDictionary().size() > 0) {
+        if (currentProgram.getHeap().getProcTable().size() > 0) {
             currentProgram.getHeap().getAll().forEach(heapEntries::add);
         }
 
         List<Map.Entry<Integer, FileData>> fileTableEntries = new ArrayList<>();
-        if (currentProgram.getFileTable().getDictionary().size() > 0) {
+        if (currentProgram.getFileTable().getProcTable().size() > 0) {
             currentProgram.getFileTable().getAll().forEach(fileTableEntries::add);
         }
 
         List<Map.Entry<String, Integer>> symbolTableEntries = new ArrayList<>();
-        if (currentProgram.getSymTable().getDictionary().size() > 0) {
+        if (currentProgram.getSymTable().getProcTable().size() > 0) {
             currentProgram.getSymTable().getAll().forEach(symbolTableEntries::add);
         }
 
