@@ -62,7 +62,7 @@ public class Controller {
      */
     public void oneStepForAllPrg(List<PrgState> prgList) {
 
-        // Log the current state of every ProgramState
+        // Log the current state of every Program
         prgList.forEach(prg -> repo.logPrgStateExec(prg));
 
         // Prepare the list of Callable

@@ -168,6 +168,15 @@ public class AppMain {
                                                         new ReleaseStmt("cnt")))))));
         commandList.add(createCommand(ex18));
 
+        IStmt testb = new CompStmt(new AssignStmt("v", new ConstExp(10)),
+                new CompStmt(new ForkStmt(
+                        new CompStmt(
+                                new AssignStmt("v", new ArithExp('-', new VarExp("v"), new ConstExp(1))),
+                                new CompStmt(new AssignStmt("v", new ArithExp('-', new VarExp("v"), new ConstExp(1))),
+                                        new PrintStmt(new VarExp("v"))))),
+                        new CompStmt(new SleepStmt(10), new PrintStmt(new ArithExp('*', new VarExp("v"), new ConstExp(10))))));
+        commandList.add(createCommand(testb));
+
         return commandList;
     }
 
