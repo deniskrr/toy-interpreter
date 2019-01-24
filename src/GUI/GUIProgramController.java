@@ -3,6 +3,7 @@ package GUI;
 import Controller.Controller;
 import Domain.FileData;
 import Domain.PrgState;
+import Domain.Statements.ProcedureEntry;
 import Exceptions.*;
 import javafx.application.Platform;
 import javafx.beans.property.SimpleStringProperty;
@@ -64,6 +65,15 @@ public class GUIProgramController {
     private TableColumn<Map.Entry<String, Integer>, String> symbolTableValue;
 
     @FXML
+    private TableView<Map.Entry<String, ProcedureEntry>> procedureTable;
+
+    @FXML
+    private TableColumn<Map.Entry<String, ProcedureEntry>, String> procedureName;
+
+    @FXML
+    private TableColumn<Map.Entry<String, ProcedureEntry>, String> procedureParameters;
+
+    @FXML
     private ListView<String> execStackView;
 
     @FXML
@@ -90,6 +100,13 @@ public class GUIProgramController {
         }
 
 
+        List<Map.Entry<String, ProcedureEntry>> procedures = new ArrayList<>();
+        if (currentProgram.getProcTable().getProcTable().size() > 0) {
+            currentProgram.getProcTable().getAll().forEach(procedures::add);
+        }
+
+
+        procedureTable.setItems(FXCollections.observableArrayList(procedures));
         symbolTable.setItems(FXCollections.observableArrayList(symbolTableEntries));
         fileTableView.setItems(FXCollections.observableArrayList(fileTableEntries));
         heapTableView.setItems(FXCollections.observableArrayList(heapEntries));
@@ -150,6 +167,20 @@ public class GUIProgramController {
                 @Override
                 public ObservableValue<String> call(TableColumn.CellDataFeatures<Map.Entry<String, Integer>, String> param) {
                     return new SimpleStringProperty(String.valueOf(param.getValue().getValue()));
+                }
+            });
+
+            procedureName.setCellValueFactory(new Callback<TableColumn.CellDataFeatures<Map.Entry<String, ProcedureEntry>, String>, ObservableValue<String>>() {
+                @Override
+                public ObservableValue<String> call(TableColumn.CellDataFeatures<Map.Entry<String, ProcedureEntry>, String> param) {
+                    return new SimpleStringProperty(param.getValue().getKey());
+                }
+            });
+
+            procedureParameters.setCellValueFactory(new Callback<TableColumn.CellDataFeatures<Map.Entry<String, ProcedureEntry>, String>, ObservableValue<String>>() {
+                @Override
+                public ObservableValue<String> call(TableColumn.CellDataFeatures<Map.Entry<String, ProcedureEntry>, String> param) {
+                    return new SimpleStringProperty(param.getValue().getValue().toString());
                 }
             });
 

@@ -15,6 +15,7 @@ import Domain.Statements.FileStatements.OpenFile;
 import Domain.Statements.FileStatements.ReadFile;
 import Domain.Statements.HeapStatements.HeapAllocationStmt;
 import Domain.Statements.HeapStatements.HeapWritingStmt;
+import Domain.Statements.ProcedureStatements.CallStmt;
 import Domain.Statements.SemaphoreStatements.AcquireStmt;
 import Domain.Statements.SemaphoreStatements.NewSemaphoreStmt;
 import Domain.Statements.SemaphoreStatements.ReleaseStmt;
@@ -23,6 +24,7 @@ import Repository.TextRepository;
 import View.TextInterpreter;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
@@ -30,23 +32,14 @@ import java.util.Scanner;
 public class AppMain {
 
     private static int logger = 1;
+    private static List<Procedure> procedures = new ArrayList<>();
 
     /**
      * Choice == 1: GUI
      * == 2: CLI
      */
-    public static int choice = 0;
 
     private static Command createCommand(IStmt mainStatement) {
-        TextRepository repo = new TextRepository("Log" + logger + ".txt");
-        Controller ctrl = new Controller(repo);
-        PrgState prgState = new PrgState(mainStatement);
-        repo.addProgram(prgState);
-
-        return new RunCommand(String.valueOf(logger++), mainStatement.toString(), ctrl);
-    }
-
-    private static Command createCommand(IStmt mainStatement, List<Procedure> procedures) {
         TextRepository repo = new TextRepository("Log" + logger + ".txt");
         Controller ctrl = new Controller(repo);
         PrgState prgState = new PrgState(mainStatement);
@@ -58,8 +51,19 @@ public class AppMain {
         return new RunCommand(String.valueOf(logger++), mainStatement.toString(), ctrl);
     }
 
+
     public static List<Command> getCommands() {
         List<Command> commandList = new ArrayList<>();
+
+        IStmt sum = new CompStmt(new AssignStmt("v", new ArithExp('+', new VarExp("a"), new VarExp("b"))),
+                new PrintStmt(new VarExp("v")));
+        Procedure sumProcedure = new Procedure("sum", new ProcedureEntry(Arrays.asList("a", "b"), sum));
+        IStmt product = new CompStmt(new AssignStmt("v", new ArithExp('*', new VarExp("a"), new VarExp("b"))),
+                new PrintStmt(new VarExp("v")));
+        Procedure productProcedure = new Procedure("product", new ProcedureEntry(Arrays.asList("a", "b"), product));
+        procedures.add(sumProcedure);
+        procedures.add(productProcedure);
+
 
         IStmt ex1 = new CompStmt(
                 new AssignStmt("v", new ConstExp(2)), new PrintStmt(new VarExp("v")));
@@ -190,10 +194,16 @@ public class AppMain {
                         new CompStmt(new SleepStmt(10), new PrintStmt(new ArithExp('*', new VarExp("v"), new ConstExp(10))))));
         commandList.add(createCommand(testb));
 
-        IStmt sum = new CompStmt(new AssignStmt("v", new ArithExp('+', new VarExp("a"), new VarExp("b"))),
-                new PrintStmt(new VarExp("v")));
-//        Procedure sum = new Procedure("sum", new ProcedureEntry(Arrays.asList("a", "b"),))
 
+        IStmt testa = new CompStmt(new AssignStmt("v", new ConstExp(2)),
+                new CompStmt(new AssignStmt("w", new ConstExp(5)),
+                        new CompStmt(new CallStmt("sum", Arrays.asList(new ArithExp('*', new VarExp("v"), new ConstExp(10)), new VarExp("w"))),
+                                new CompStmt(new PrintStmt(new VarExp("v")),
+                                        new CompStmt(
+                                                new ForkStmt(new CallStmt("product", Arrays.asList(new VarExp("v"), new VarExp("w")))),
+                                                new ForkStmt(new CallStmt("sum", Arrays.asList(new VarExp("v"), new VarExp("w"))))
+                                        )))));
+        commandList.add(createCommand(testa));
         return commandList;
     }
 

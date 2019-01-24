@@ -19,4 +19,14 @@ public class ProcedureEntry {
     public IStmt getBody() {
         return body;
     }
+
+    @Override
+    public String toString() {
+        String str = "(";
+        for (String param : parameters) {
+            str += param + ", ";
+        }
+        str += ")" + body;
+        return str;
+    }
 }

@@ -63,6 +63,7 @@ public class PrgState {
         str += "Semaphore Table: \n" + semaphoreTable.toString();
         str += "Procedure Table: \n" + procTable.toString();
         str += "Print output:\n" + out.toString();
+        str += "\n\n";
 
         return str;
     }

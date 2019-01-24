@@ -10,4 +10,9 @@ public class ReturnStmt implements IStmt {
         state.getSymTables().pop();
         return null;
     }
+
+    @Override
+    public String toString() {
+        return "return ";
+    }
 }
