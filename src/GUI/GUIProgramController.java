@@ -2,8 +2,8 @@ package GUI;
 
 import Controller.Controller;
 import Domain.FileData;
-import Domain.PrgState;
-import Domain.Statements.ProcedureEntry;
+import Domain.ProgramState;
+import Domain.ProcedureEntry;
 import Exceptions.*;
 import javafx.application.Platform;
 import javafx.beans.property.SimpleStringProperty;
@@ -26,7 +26,7 @@ import java.util.Map;
 public class GUIProgramController {
 
     private Controller ctrl;
-    private ObservableList<PrgState> prgStates;
+    private ObservableList<ProgramState> prgStates;
 
     @FXML
     private TextField programNo;
@@ -50,7 +50,7 @@ public class GUIProgramController {
     private TableColumn<Map.Entry<Integer, FileData>, String> fileTableFileName;
 
     @FXML
-    private ListView<PrgState> identifierView;
+    private ListView<ProgramState> identifierView;
 
     @FXML
     private ListView<String> outView;
@@ -83,10 +83,10 @@ public class GUIProgramController {
         ctrl = controller;
     }
 
-    public void refresh(PrgState currentProgram) {
+    public void refresh(ProgramState currentProgram) {
         List<Map.Entry<Integer, Integer>> heapEntries = new ArrayList<>();
-        if (currentProgram.getHeap().getProcTable().size() > 0) {
-            currentProgram.getHeap().getAll().forEach(heapEntries::add);
+        if (currentProgram.getHeapTable().getProcTable().size() > 0) {
+            currentProgram.getHeapTable().getAll().forEach(heapEntries::add);
         }
 
         List<Map.Entry<Integer, FileData>> fileTableEntries = new ArrayList<>();
@@ -95,14 +95,14 @@ public class GUIProgramController {
         }
 
         List<Map.Entry<String, Integer>> symbolTableEntries = new ArrayList<>();
-        if (currentProgram.getSymTable().getProcTable().size() > 0) {
-            currentProgram.getSymTable().getAll().forEach(symbolTableEntries::add);
+        if (currentProgram.getSymbolTable().getProcTable().size() > 0) {
+            currentProgram.getSymbolTable().getAll().forEach(symbolTableEntries::add);
         }
 
 
         List<Map.Entry<String, ProcedureEntry>> procedures = new ArrayList<>();
-        if (currentProgram.getProcTable().getProcTable().size() > 0) {
-            currentProgram.getProcTable().getAll().forEach(procedures::add);
+        if (currentProgram.getProcedureTable().getProcTable().size() > 0) {
+            currentProgram.getProcedureTable().getAll().forEach(procedures::add);
         }
 
 
@@ -111,7 +111,7 @@ public class GUIProgramController {
         fileTableView.setItems(FXCollections.observableArrayList(fileTableEntries));
         heapTableView.setItems(FXCollections.observableArrayList(heapEntries));
         programNo.setText(String.valueOf(prgStates.size()));
-        execStackView.setItems(FXCollections.observableArrayList(currentProgram.getExeStack().toString().split("\n")));
+        execStackView.setItems(FXCollections.observableArrayList(currentProgram.getExecutionStack().toString().split("\n")));
         outView.setItems(FXCollections.observableArrayList(currentProgram.getOut().toString().split("\n")));
 
 
@@ -184,22 +184,22 @@ public class GUIProgramController {
                 }
             });
 
-            identifierView.getSelectionModel().selectedItemProperty().addListener(new ChangeListener<PrgState>() {
+            identifierView.getSelectionModel().selectedItemProperty().addListener(new ChangeListener<ProgramState>() {
                 @Override
-                public void changed(ObservableValue<? extends PrgState> observable, PrgState oldValue, PrgState newValue) {
+                public void changed(ObservableValue<? extends ProgramState> observable, ProgramState oldValue, ProgramState newValue) {
                     if (observable.getValue() != null) {
                         refresh(observable.getValue());
                     }
                 }
             });
 
-            identifierView.setCellFactory(new Callback<ListView<PrgState>, ListCell<PrgState>>() {
+            identifierView.setCellFactory(new Callback<ListView<ProgramState>, ListCell<ProgramState>>() {
                 @Override
-                public ListCell<PrgState> call(ListView<PrgState> param) {
-                    ListCell<PrgState> cell = new ListCell<PrgState>() {
+                public ListCell<ProgramState> call(ListView<ProgramState> param) {
+                    ListCell<ProgramState> cell = new ListCell<ProgramState>() {
 
                         @Override
-                        protected void updateItem(PrgState item, boolean empty) {
+                        protected void updateItem(ProgramState item, boolean empty) {
                             super.updateItem(item, empty);
                             if (item != null) {
                                 setText(String.valueOf(item.getId()));

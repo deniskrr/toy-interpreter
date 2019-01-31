@@ -1,7 +1,6 @@
 package Repository;
 
-import Domain.ADT.MyList;
-import Domain.PrgState;
+import Domain.ProgramState;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -9,25 +8,25 @@ import java.util.List;
 
 public class TextRepository implements IRepository{
 
-    private List<PrgState> programStates;
+    private List<ProgramState> programStates;
     private String logFilePath;
 
     public TextRepository(String logFilePath){
-        programStates = new ArrayList<PrgState>();
+        programStates = new ArrayList<ProgramState>();
         this.logFilePath = logFilePath;
     }
 
-    public List<PrgState> getProgramStates() {
+    public List<ProgramState> getProgramStates() {
         return programStates;
     }
 
     @Override
-    public void addProgram(PrgState newPrg){
+    public void addProgram(ProgramState newPrg){
         programStates.add(newPrg);
     }
 
     @Override
-    public void logPrgStateExec(PrgState prg) {
+    public void logPrgStateExec(ProgramState prg) {
 
         PrintWriter logFile = null;
         try {
@@ -44,7 +43,7 @@ public class TextRepository implements IRepository{
     }
 
     @Override
-    public void setProgramStates(List<PrgState> l){
+    public void setProgramStates(List<ProgramState> l){
         programStates = l;
     }
 }

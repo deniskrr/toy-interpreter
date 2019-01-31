@@ -1,7 +1,7 @@
 package Controller;
 
 import Domain.ADT.IDictionary;
-import Domain.PrgState;
+import Domain.ProgramState;
 import Exceptions.*;
 import Repository.IRepository;
 
@@ -15,6 +15,10 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.stream.Collectors;
 
+
+/**
+ * Class used for executing a {@link ProgramState} stored in a {@link IRepository} instance.
+ */
 public class Controller {
 
     private IRepository repo;
@@ -31,43 +35,37 @@ public class Controller {
     }
 
     /**
-     * Add a new ProgramState to the controller
+     * Adds a new ProgramState to the controller
      *
      * @param newProgramState - ProgramState to be added
      */
-    public void addProgramState(PrgState newProgramState) {
+    public void addProgramState(ProgramState newProgramState) {
         repo.addProgram(newProgramState);
     }
 
     /**
-     * Remove the ProgramStates that have finished execution
+     * Removes the ProgramStates that have finished execution
      *
      * @param inPrgList - list of controller's ProgramStates
-     * @return list The filtered list
+     * @return the filtered list
      */
-    public List<PrgState> removeCompletedPrg(List<PrgState> inPrgList) {
-        return inPrgList.stream().filter(PrgState::isNotCompleted).collect(Collectors.toList());
+    public List<ProgramState> removeCompletedPrg(List<ProgramState> inPrgList) {
+        return inPrgList.stream().filter(ProgramState::isNotCompleted).collect(Collectors.toList());
     }
 
     /**
-     * Execute one step for every ProgramState
+     * Executes one step for every ProgramState
      *
      * @param prgList List of ProgramStates
-     * @throws DivisionByZeroException       Dividing by 0
-     * @throws InvalidOperatorException      Creating an ArithmeticExpression with invalid operator
-     * @throws VariableNotFoundException     Querying a variable that does not exist
-     * @throws HeapWritingException          Updating a key that does not exist
-     * @throws HeapVariableNotFoundException Querying a key that is not defined in heap
-     * @throws EmptyStackException           Empty execution stack
      */
-    public void oneStepForAllPrg(List<PrgState> prgList) {
+    public void oneStepForAllPrg(List<ProgramState> prgList) {
 
         // Log the current state of every Program
         prgList.forEach(prg -> repo.logPrgStateExec(prg));
 
         // Prepare the list of Callable
-        List<Callable<PrgState>> callList = prgList.stream()
-                .map((PrgState p) -> (Callable<PrgState>) (() -> {
+        List<Callable<ProgramState>> callList = prgList.stream()
+                .map((ProgramState p) -> (Callable<ProgramState>) (() -> {
                     try {
                         return p.oneStep();
                     } catch (RuntimeException e) {
@@ -80,7 +78,7 @@ public class Controller {
 
         // Start the execution of the callables
         // It returns the list of threads
-        List<PrgState> newPrgList = null;
+        List<ProgramState> newPrgList = null;
         try {
             newPrgList = executor.invokeAll(callList).stream()
                     .map(future -> {
@@ -107,36 +105,29 @@ public class Controller {
 
 
     /**
-     * Execute all steps
-     *
-     * @throws DivisionByZeroException       Dividing by 0
-     * @throws InvalidOperatorException      Creating an ArithmeticExpression with invalid operator
-     * @throws VariableNotFoundException     Querying a variable that does not exist
-     * @throws HeapWritingException          Updating a key that does not exist
-     * @throws HeapVariableNotFoundException Querying a key that is not defined in heap
-     * @throws EmptyStackException           Empty execution stack
+     * Executes all PrgStates from start to end.
      */
     public void allStepEvaluation() {
         executor = Executors.newFixedThreadPool(2);
 
         // Remove the completed programs
-        List<PrgState> prgStateList = removeCompletedPrg(repo.getProgramStates());
-        while (prgStateList.size() > 0) {
+        List<ProgramState> programStateList = removeCompletedPrg(repo.getProgramStates());
+        while (programStateList.size() > 0) {
 
             // Call the conservativeGarbageCollector
-            prgStateList.forEach(program -> program.getHeap().setContent(conservativeGarbageCollector(program.getSymTable().values(), program.getHeap())));
+            programStateList.forEach(program -> program.getHeapTable().setContent(conservativeGarbageCollector(program.getSymbolTable().values(), program.getHeapTable())));
 
-            oneStepForAllPrg(prgStateList);
+            oneStepForAllPrg(programStateList);
 
-            prgStateList.forEach(program -> System.out.println(program.toString()));
+            programStateList.forEach(program -> System.out.println(program.toString()));
 
             // Remove the completed programs
-            prgStateList = removeCompletedPrg(repo.getProgramStates());
+            programStateList = removeCompletedPrg(repo.getProgramStates());
         }
         executor.shutdownNow();
 
         // Close the files
-        List<PrgState> tmpList = repo.getProgramStates();
+        List<ProgramState> tmpList = repo.getProgramStates();
         tmpList.forEach(program -> program.getFileTable().getProcTable().entrySet()
                 .stream()
                 .map(e -> e.getValue()).map(e -> e.getReader())
@@ -149,9 +140,16 @@ public class Controller {
                 }));
 
         // Update the repository state
-        repo.setProgramStates(prgStateList);
+        repo.setProgramStates(programStateList);
     }
 
+
+    /**
+     * Filters the Heap so that every value in it is referenced in the SymTable
+     * @param symTableValues - the entries in the SymTable
+     * @param heap - the heap
+     * @return the set of filtered heap entries
+     */
     private Set conservativeGarbageCollector(Collection<Integer> symTableValues, IDictionary<Integer, Integer> heap) {
         return heap.getProcTable().entrySet()
                 .stream()
@@ -159,6 +157,11 @@ public class Controller {
                 .collect(Collectors.toSet());
     }
 
+
+    /**
+     * Gets the repository
+     * @return the repository
+     */
     public IRepository getRepo() {
         return repo;
     }

@@ -1,10 +1,13 @@
 package Domain;
 
-import Domain.Statements.ProcedureEntry;
 
+/**
+ * A wrapper for a Procedure
+ */
 public class Procedure {
-    String name;
-    ProcedureEntry entry;
+    private String name;
+    private ProcedureEntry entry;
+
 
     public Procedure(String name, ProcedureEntry entry) {
         this.name = name;

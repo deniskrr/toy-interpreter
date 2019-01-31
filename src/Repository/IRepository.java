@@ -1,36 +1,38 @@
 package Repository;
 
-import Domain.ADT.MyList;
-import Domain.PrgState;
+import Domain.ProgramState;
 
 import java.util.List;
 
+/**
+ * A class used for storing a list of ProgramStates.
+ */
 public interface IRepository {
 
     /**
-     * Add a new program state to the Execution Stack
-     * @param newPrgState: the program state to be added
+     * Adds a new program state to the Execution Stack
+     * @param newProgramState: the program state to be added
      */
-    void addProgram(PrgState newPrgState);
+    void addProgram(ProgramState newProgramState);
 
 
     /**
-     * Log the ProgramState
+     * Logs the ProgramState
      * @param prg: the program state
      */
-    void logPrgStateExec(PrgState prg);
+    void logPrgStateExec(ProgramState prg);
 
 
     /**
-     * Get the list of program states
+     * Gets the list of program states
      * @return a list with all program states
      */
-    List<PrgState> getProgramStates();
+    List<ProgramState> getProgramStates();
 
 
     /**
-     * Set the list of program states to a given list
+     * Sets the list of program states to a given list
      * @param l: the given list
      */
-    void setProgramStates(List<PrgState> l);
+    void setProgramStates(List<ProgramState> l);
 }

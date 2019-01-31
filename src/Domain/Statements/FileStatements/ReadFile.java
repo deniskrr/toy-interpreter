@@ -1,27 +1,27 @@
 package Domain.Statements.FileStatements;
 
-import Domain.Expression.Exp;
-import Domain.PrgState;
-import Domain.Statements.IStmt;
+import Domain.Expression.Expression;
+import Domain.ProgramState;
+import Domain.Statements.IStatement;
 import Exceptions.FileReadException;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 
-public class ReadFile implements IStmt {
+public class ReadFile implements IStatement {
 
-    private Exp expFileId;
+    private Expression expressionFileId;
     private String varName;
 
-    public ReadFile(Exp expFileId, String varName) {
-        this.expFileId = expFileId;
+    public ReadFile(Expression expressionFileId, String varName) {
+        this.expressionFileId = expressionFileId;
         this.varName = varName;
     }
 
     @Override
-    public PrgState execute(PrgState state) {
+    public ProgramState execute(ProgramState state) {
         try {
-            int eval = expFileId.evaluate(state.getSymTable(), state.getHeap());
+            int eval = expressionFileId.evaluate(state.getSymbolTable(), state.getHeapTable());
             BufferedReader reader = state.getFileTable().getValueForKey(eval).getReader();
             String line = reader.readLine();
 
@@ -32,10 +32,10 @@ public class ReadFile implements IStmt {
             else
                 value = Integer.parseInt(line);
 
-            if (state.getSymTable().checkExistence(varName))
-                state.getSymTable().update(varName, value);
+            if (state.getSymbolTable().checkExistence(varName))
+                state.getSymbolTable().update(varName, value);
             else
-                state.getSymTable().add(varName, value);
+                state.getSymbolTable().add(varName, value);
         } catch (IOException e) {
             throw new FileReadException();
         }
@@ -44,7 +44,7 @@ public class ReadFile implements IStmt {
 
     @Override
     public String toString() {
-        return "readFile (" + varName + "," + expFileId.toString() + ") ";
+        return "readFile (" + varName + "," + expressionFileId.toString() + ") ";
     }
 
 }

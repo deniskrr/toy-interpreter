@@ -1,25 +1,25 @@
 package Domain.Statements.FileStatements;
 
-import Domain.Expression.Exp;
-import Domain.PrgState;
-import Domain.Statements.IStmt;
+import Domain.Expression.Expression;
+import Domain.ProgramState;
+import Domain.Statements.IStatement;
 import Exceptions.FileReadException;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 
-public class CloseFile implements IStmt {
+public class CloseFile implements IStatement {
 
-    private Exp expFileId;
+    private Expression expressionFileId;
 
-    public CloseFile(Exp expFileId) {
-        this.expFileId = expFileId;
+    public CloseFile(Expression expressionFileId) {
+        this.expressionFileId = expressionFileId;
     }
 
     @Override
-    public PrgState execute(PrgState state) {
+    public ProgramState execute(ProgramState state) {
         try{
-            int value = expFileId.evaluate(state.getSymTable(), state.getHeap());
+            int value = expressionFileId.evaluate(state.getSymbolTable(), state.getHeapTable());
 
             BufferedReader reader = state.getFileTable().getValueForKey(value).getReader();
             reader.close();
@@ -33,7 +33,7 @@ public class CloseFile implements IStmt {
 
     @Override
     public String toString(){
-        return "closeFile ( " + expFileId.toString() + " )";
+        return "closeFile ( " + expressionFileId.toString() + " )";
     }
 
 }

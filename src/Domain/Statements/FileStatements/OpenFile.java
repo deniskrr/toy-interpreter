@@ -2,8 +2,8 @@ package Domain.Statements.FileStatements;
 
 import Domain.ADT.IDictionary;
 import Domain.FileData;
-import Domain.PrgState;
-import Domain.Statements.IStmt;
+import Domain.ProgramState;
+import Domain.Statements.IStatement;
 import Exceptions.FileAlreadyExistsException;
 import Exceptions.FileReadException;
 import Utils.IdGenerator;
@@ -13,7 +13,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.Map;
 
-public class OpenFile implements IStmt {
+public class OpenFile implements IStatement {
 
     private String varFileId;
     private String filename;
@@ -31,7 +31,7 @@ public class OpenFile implements IStmt {
     }
 
     @Override
-    public PrgState execute(PrgState state) {
+    public ProgramState execute(ProgramState state) {
 
         BufferedReader reader;
         try{
@@ -44,7 +44,7 @@ public class OpenFile implements IStmt {
             int newId = IdGenerator.generateUniqueId();
 
             state.getFileTable().add(newId,tuple);
-            state.getSymTable().add(varFileId, newId);
+            state.getSymbolTable().add(varFileId, newId);
 
         }
         catch(IOException e){

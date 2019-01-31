@@ -5,7 +5,7 @@ public abstract class Command {
     private String key, description;
 
     /**
-     * Construct a command
+     * Constructs a command
      * @param key - the key of the command
      * @param description - description of the command
      */
@@ -16,14 +16,14 @@ public abstract class Command {
 
 
     /**
-     * Execute the command
+     * Executes the command
      */
     public abstract void execute();
 
 
     /**
-     * Key getter
-     * @return key of the command
+     * Gets the key
+     * @return the key of the command
      */
     public String getKey(){
         return key;
@@ -31,8 +31,8 @@ public abstract class Command {
 
 
     /**
-     * Description getter
-     * @return description of the command
+     * Gets the description
+     * @return the description of the command
      */
     public String getDescription(){
         return description;

@@ -1,0 +1,39 @@
+Id:
+	14
+ExeStack:
+	newSemaphore(v, 10)
+Sym Table:
+	
+File Table:
+HeapTable Table: 
+SemaphoreTable Table: 
+Procedure Table: 
+	product = (a, b, )v = a*b;print (v)
+	sum = (a, b, )v = a+b;print (v)
+Print output:
+
+
+
+
+
+
+Id:
+	14
+ExeStack:
+Sym Table:
+		v = 50000
+
+File Table:
+HeapTable Table: 
+SemaphoreTable Table: 
+	Location: 50000 Value: Counter: 10 Programs:
+Procedure Table: 
+	product = (a, b, )v = a*b;print (v)
+	sum = (a, b, )v = a+b;print (v)
+Print output:
+
+
+
+
+
+

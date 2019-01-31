@@ -1,8 +1,13 @@
 package Domain;
 
+import Domain.ADT.SemaphoreTable;
+
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * A wrapper for an entry in the {@link SemaphoreTable}.
+ */
 public class SemaphoreEntry {
     private int counter;
     private List<Integer> list;

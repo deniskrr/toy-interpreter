@@ -5,32 +5,46 @@ import java.util.Stack;
 public interface IStack<T> {
 
     /**
-     * Push an element to the top of the stack.
-     * @param element - the element to be added in the stack
+     * Pushes an element to the top of the stack.
+     *
+     * @param element - the element to be pushed to the stack
      */
     void push(T element);
 
 
     /**
-     * Pop an element from the top of the stack
-     * @return - an element of type T which is the one from the top of the stack
+     * Pops an element from the top of the stack.
+     *
+     * @return - the top of the stack
      */
     T pop();
 
+    /**
+     * Gets the top of the stack.
+     *
+     * @return - the top of the stack
+     */
     T peek();
 
     /**
-     * Check if the stack is empty
-     * @return true - if the stack is empty
-     *         false - otherwise
+     * Check if the stack is empty.
+     *
+     * @return <code>true</code> - if the stack is empty
+     * <code>false </code> - otherwise
      */
     boolean isEmpty();
 
+    /**
+     * Gets the stack.
+     *
+     * @return the stack
+     */
     Stack<T> getStack();
 
     /**
-     * String method to get all the elements from the stack.
-     * @return - a string containing all the elements from the stack
+     * Gets all the elements from the stack.
+     *
+     * @return a string with all the elements
      */
     String toString();
 
